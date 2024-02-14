@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import video from '../../assets/videos/video-banner.mp4'
 import visionImg from '../../assets/img/ia-vision.jpeg'
 import valuesImg from '../../assets/img/ia-valores.jpeg'
 import './HomeSections.css'
@@ -49,7 +48,9 @@ export default function HistorySection() {
                   </div>
 
                   <div className='section-video-container'>
-                     <video controls controlsList="nodownload" src={video}></video>
+                     <video controls controlsList="nodownload">
+                     <source src="https://firebasestorage.googleapis.com/v0/b/claros-de-inspiracion.appspot.com/o/Banner%20Video%2Fvideo-banner.mp4?alt=media&token=da83d54d-c6d1-4604-b45e-65cbb4cca1c8" type="video/mp4" />
+                     </video>
                      <a href="#">Leer testimonio completo</a>
                   </div>
                </div>
@@ -58,7 +59,9 @@ export default function HistorySection() {
             <section id='mission' className='section-mission section-home' data-aos="fade-right" data-aos-offset="300">
                <div className='main-section-container'>
                   <div className='section-video-container'>
-                     <video controls controlsList="nodownload" src={video}></video>
+                     <video controls controlsList="nodownload">
+                     <source src="https://firebasestorage.googleapis.com/v0/b/claros-de-inspiracion.appspot.com/o/Banner%20Video%2Fvideo-banner.mp4?alt=media&token=da83d54d-c6d1-4604-b45e-65cbb4cca1c8" type="video/mp4" />
+                     </video>
                   </div>
 
                   <div className='mission-text-container'>
