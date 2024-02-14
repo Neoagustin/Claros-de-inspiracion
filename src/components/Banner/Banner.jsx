@@ -3,6 +3,15 @@ import './BannerResponsive.css';
 import videoSource from '../../assets/videos/video-banner.mp4';
 
 export default function Banner() {
+
+  const scrollToHistory = () => {
+    const historySection = document.getElementById(`history`);
+    const yOffset = -50;
+    const y = historySection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+    window.scrollTo({top: y, behavior: 'smooth'});
+
+ };
+
   return (
     <div className="banner-container">
       <div className="dark-overlay"></div>
@@ -11,7 +20,7 @@ export default function Banner() {
         <p>Ministerio Misionero y Profético </p>
       </div>
       <div className="banner-btn">
-        <a href="#sections">VER MÁS</a>
+        <a onClick={scrollToHistory}>VER MÁS</a>
       </div>
       <video autoPlay loop muted className="banner-video">
         <source src={videoSource} type="video/mp4" />
