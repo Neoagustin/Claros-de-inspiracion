@@ -11,7 +11,7 @@ export default function Banner() {
         <p>Ministerio Misionero y Profético </p>
       </div>
       <div className="banner-btn">
-        <a href="#">VER MÁS</a>
+        <a href="#sections">VER MÁS</a>
       </div>
       <video autoPlay loop muted className="banner-video">
         <source src={videoSource} type="video/mp4" />

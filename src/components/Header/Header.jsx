@@ -12,20 +12,39 @@ export default function Header() {
       setIsOpen(!isOpen);
    };
 
+   const scrollToTop = () => {
+      window.scrollTo({
+         top: 0,
+         behavior: 'smooth'
+      });
+      if (isOpen === true) {
+         setIsOpen(!isOpen);
+      }
+   };
+
+   const scrollToSection = (sectionId) => {
+      const historySection = document.getElementById(`${sectionId}`);
+      const yOffset = -50;
+      const y = historySection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({top: y, behavior: 'smooth'});
+
+      setIsOpen(!isOpen);
+   };
+
    return (
       <header>
          <div>
-            <img src={logo} alt="Logo" title='Claro de Inspiracion Logo' />
+            <img onClick={scrollToTop} src={logo} alt="Logo" title='Claro de Inspiracion Logo' />
          </div>
 
          <nav className={`nav-header ${isOpen ? 'open' : ''}`}>
             <div className="menu-container">
                <ul>
-                  <li><a href="#">Inicio</a></li>
-                  <li><a href="#">Historia</a></li>
-                  <li><a href="#">Misión</a></li>
-                  <li><a href="#">Visión</a></li>
-                  <li><a href="#">Valores</a></li>
+                  <li><a onClick={scrollToTop} href="#">Inicio</a></li>
+                  <li><a onClick={() => scrollToSection("history")} href="#">Historia</a></li>
+                  <li><a onClick={() => scrollToSection("mission")} href="#">Misión</a></li>
+                  <li><a onClick={() => scrollToSection("vision")} href="#">Visión</a></li>
+                  <li><a onClick={() => scrollToSection("values")} href="#">Valores</a></li>
                   <div className='btn-container'>
                      <a href="#" id='btn-cursos-header' className='btn-cursos-header'>Cursos</a>
                      <a href="#" id='btn-ofrendas-header' className='btn-ofrendas-header'>Ofrendas</a>
