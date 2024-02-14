@@ -1,0 +1,83 @@
+header {
+  align-items: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;
+  padding: 15px 25px;
+  width: 100%;
+}
+
+header img {
+  cursor: pointer;
+  height: 50px;
+  transition: transform .3s ease-in-out;
+  width: 50px;
+}
+
+header img:hover {
+  transform: scale(1.1);
+}
+
+.nav-header {
+  margin-left: auto;
+}
+
+.nav-header a {
+  transition: color .3s, border .3s, background .3s;
+}
+
+.nav-header ul {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 15px;
+}
+
+.nav-header li a {
+  color: rgb(211, 211, 211);
+  text-decoration: none;
+}
+
+.nav-header li a:hover {
+  color: #FF5B1E;
+}
+
+.nav-header ul>div>a {
+  border-radius: 50px;
+  color: white;
+  display: block;
+  padding: 8px 0px;
+  text-align: center;
+  text-decoration: none;
+  width: 120px;
+}
+
+.btn-container {
+  display: flex;
+  gap: 1em;
+}
+
+.btn-cursos-header {
+  border: 1px solid #FF5B1E;
+}
+
+.btn-cursos-header:hover {
+  background-color: #ff6200;
+}
+
+.btn-ofrendas-header {
+  border: 1px solid #FF5B1E;
+  background-color: #FF5B1E;
+}
+
+.btn-ofrendas-header:hover {
+  background-color: #ff6200;
+}
+
+.networks-header-container{
+  display: none;
+}

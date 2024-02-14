@@ -1,0 +1,230 @@
+/* Estilos del menú para pantallas pequeñas */
+@media screen and (max-width: 1199px) {
+  header {
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-color: black;
+  }
+
+  header img {
+    z-index: 10;
+  }
+
+  .menu-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-header {
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    top: 80px;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(34, 34, 34);
+    z-index: 3;
+    padding-top: 3em;
+    transform: translateX(200%);
+    transition: all 0.3s ease;
+    overflow-y: auto;
+  }
+
+  .nav-header ul {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+
+  .nav-header li {
+    width: 40%;
+    text-align: center;
+    padding: 0px 0px;
+    transition: all 0.3s ease;
+    margin: 10px 0;
+  }
+
+  .nav-header li:hover {
+    background-color: #797979;
+    padding-left: 5px;
+  }
+
+  .nav-header li a {
+    font-family: MuliBold;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: color 0.3s ease;
+  }
+
+  .nav-header li:hover a {
+    color: rgb(255, 255, 255);
+  }
+
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+    z-index: 3;
+  }
+
+  .menu-toggle span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .menu-toggle.open span:nth-child(1) {
+    transform: translateY(11px) rotate(45deg);
+  }
+
+  .menu-toggle.open span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-toggle.open span:nth-child(3) {
+    transform: translateY(-11px) rotate(-45deg);
+  }
+
+  .nav-header.open {
+    opacity: 1;
+    transform: translateX(100%);
+  }
+
+  .nav-header.open ul {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+    text-align: center;
+  }
+
+  .nav-header.open a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all .3s ease;
+  }
+
+  .btn-container {
+    flex-direction: column;
+    width: 13em;
+  }
+
+  #btn-cursos-header {
+    display: flex;
+    background-color: #FF5B1E;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2em;
+    font-size: 1.3em;
+    font-family: MuliBold;
+  }
+
+  #btn-ofrendas-header {
+    display: flex;
+    background-color: #0d3efd;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    font-size: 1.3em;
+    font-family: MuliBold;
+    width: 100%;
+  }
+
+  .networks-header-container {
+    display: flex;
+    gap: 1.5em;
+    margin-top: 1em;
+  }
+
+  .networks-header-container img {
+    height: auto;
+    width: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-header {
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(34, 34, 34);
+    z-index: 3;
+    padding-top: 3em;
+    transform: translateX(100%);
+    transition: all 0.3s ease;
+    overflow-y: auto;
+  }
+
+  .nav-header.open {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@media screen and (max-width: 575px) {
+  header {
+    height: 60px;
+    padding: 15px;
+  }
+
+  header img {
+    width: 40px;
+    height: auto;
+  }
+
+  /*? BOTON MENU */
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+    z-index: 3;
+  }
+
+  .menu-toggle span {
+    display: block;
+    width: 27px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 6px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .menu-toggle span:nth-last-child(1) {
+    margin-bottom: 0px;
+  }
+
+  .menu-toggle.open span:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+  }
+
+  .menu-toggle.open span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-toggle.open span:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+  }
+
+  .nav-header {
+    top: 60px;
+  }
+}

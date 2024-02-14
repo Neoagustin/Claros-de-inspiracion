@@ -1,0 +1,63 @@
+.audio-player {
+  position: relative;
+  display: inline-block;
+}
+
+.play-pause-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, -250%);
+  width: 50px;
+  height: 50px;
+  background-color: #FF5B1E;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.play-pause-button::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-35%, -50%);
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 20px solid rgb(255, 255, 255);
+}
+
+.play-pause-button.playing::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-35%, -50%);
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 20px solid rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 575px) {
+  .play-pause-button {
+    width: 35px; /* Tamaño más pequeño */
+    height: 35px; /* Tamaño más pequeño */
+    transform: translate(50%, -200%); /* Ajuste de la posición */
+  }
+
+  .play-pause-button::after {
+    border-top: 10px solid transparent; /* Reducción del tamaño del triángulo */
+    border-bottom: 10px solid transparent; /* Reducción del tamaño del triángulo */
+    border-left: 13px solid rgb(255, 255, 255); /* Reducción del tamaño del triángulo */
+  }
+
+  .play-pause-button.playing::after {
+    border-top: 10px solid transparent; /* Reducción del tamaño del triángulo */
+    border-bottom: 10px solid transparent; /* Reducción del tamaño del triángulo */
+    border-left: 13px solid rgb(255, 255, 255); /* Reducción del tamaño del triángulo */
+  }
+}
