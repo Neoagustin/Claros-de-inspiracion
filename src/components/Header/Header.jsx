@@ -41,10 +41,10 @@ export default function Header() {
             <div className="menu-container">
                <ul>
                   <li><a onClick={scrollToTop} href="#">Inicio</a></li>
-                  <li><a onClick={() => scrollToSection("history")} href="#">Historia</a></li>
-                  <li><a onClick={() => scrollToSection("mission")} href="#">Misión</a></li>
-                  <li><a onClick={() => scrollToSection("vision")} href="#">Visión</a></li>
-                  <li><a onClick={() => scrollToSection("values")} href="#">Valores</a></li>
+                  <li><a onClick={() => scrollToSection("history")}>Historia</a></li>
+                  <li><a onClick={() => scrollToSection("mission")}>Misión</a></li>
+                  <li><a onClick={() => scrollToSection("vision")}>Visión</a></li>
+                  <li><a onClick={() => scrollToSection("values")}>Valores</a></li>
                   <div className='btn-container'>
                      <a href="#" id='btn-cursos-header' className='btn-cursos-header'>Cursos</a>
                      <a href="#" id='btn-ofrendas-header' className='btn-ofrendas-header'>Ofrendas</a>
