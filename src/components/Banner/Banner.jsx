@@ -1,6 +1,6 @@
 import './Banner.css';
 import './BannerResponsive.css';
-import videoSource from '../../assets/videos/video-banner.mp4';
+import videoSource from 'https://firebasestorage.googleapis.com/v0/b/claros-de-inspiracion.appspot.com/o/Banner%20Video%2Fvideo-banner.mp4?alt=media&token=da83d54d-c6d1-4604-b45e-65cbb4cca1c8';
 
 export default function Banner() {
 
@@ -8,9 +8,9 @@ export default function Banner() {
     const historySection = document.getElementById(`history`);
     const yOffset = -50;
     const y = historySection.getBoundingClientRect().top + window.pageYOffset + yOffset;
-    window.scrollTo({top: y, behavior: 'smooth'});
+    window.scrollTo({ top: y, behavior: 'smooth' });
 
- };
+  };
 
   return (
     <div className="banner-container">
