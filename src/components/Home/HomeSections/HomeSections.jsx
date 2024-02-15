@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import visionImg from '../../assets/img/ia-vision.jpeg'
-import valuesImg from '../../assets/img/ia-valores.jpeg'
-import valuesImgMobile from '../../assets/img/ia-valores-mobile.jpg'
+import visionImg from '../../../assets/img/ia-vision.jpeg'
+import valuesImg from '../../../assets/img/ia-valores.jpeg'
+import valuesImgMobile from '../../../assets/img/ia-valores-mobile.jpg'
 import './HomeSections.css'
 import './HomeSectionsResponsive.css'
 
@@ -39,7 +39,7 @@ export default function HistorySection() {
 
                <div className='section-video-container'>
                   <video controls controlsList="nodownload">
-                     <source src="https://firebasestorage.googleapis.com/v0/b/claros-de-inspiracion.appspot.com/o/Banner%20Video%2Fvideo-banner.mp4?alt=media&token=da83d54d-c6d1-4604-b45e-65cbb4cca1c8" type="video/mp4" />
+                     <source src="https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330" type="video/mp4" />
                   </video>
                   <a href="#">Leer testimonio completo</a>
                </div>
@@ -55,7 +55,7 @@ export default function HistorySection() {
             <div className='main-section-container'>
                <div className='section-video-container'>
                   <video controls controlsList="nodownload">
-                     <source src="https://firebasestorage.googleapis.com/v0/b/claros-de-inspiracion.appspot.com/o/Banner%20Video%2Fvideo-banner.mp4?alt=media&token=da83d54d-c6d1-4604-b45e-65cbb4cca1c8" type="video/mp4" />
+                     <source src="https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330" type="video/mp4" />
                   </video>
                </div>
 

@@ -46,7 +46,8 @@ header img:hover {
   color: #FF5B1E;
 }
 
-.nav-header ul>div>a {
+.btn-cursos-header,
+.btn-ofrendas-header {
   border-radius: 50px;
   color: white;
   display: block;
@@ -54,6 +55,11 @@ header img:hover {
   text-align: center;
   text-decoration: none;
   width: 120px;
+}
+
+#btn-cursos-header,
+#btn-ofrendas-header:hover {
+  color: white;
 }
 
 .btn-container {
@@ -78,6 +84,6 @@ header img:hover {
   background-color: #ff6200;
 }
 
-.networks-header-container{
+.networks-header-container {
   display: none;
 }

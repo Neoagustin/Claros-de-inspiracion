@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link, NavLink, Outlet } from 'react-router-dom';
 import './Header.css';
 import './HeaderResponsive.css';
 import logo from '../../assets/img/logo.png';
@@ -22,7 +23,7 @@ export default function Header() {
       }
    };
 
-   const scrollToSection = (sectionId) => {
+   const handleScrollToSection = (sectionId) => {
       const historySection = document.getElementById(`${sectionId}`);
       const yOffset = -50;
       const y = historySection.getBoundingClientRect().top + window.pageYOffset + yOffset;
@@ -40,23 +41,24 @@ export default function Header() {
          <nav className={`nav-header ${isOpen ? 'open' : ''}`}>
             <div className="menu-container">
                <ul>
-                  <li><a onClick={scrollToTop} href="#">Inicio</a></li>
-                  <li><a onClick={() => scrollToSection("history")}>Historia</a></li>
-                  <li><a onClick={() => scrollToSection("mission")}>Misión</a></li>
-                  <li><a onClick={() => scrollToSection("vision")}>Visión</a></li>
-                  <li><a onClick={() => scrollToSection("values")}>Valores</a></li>
+                  <li><Link to="/" onClick={scrollToTop}>Inicio</Link></li>
+                  <li><NavLink to="/" onClick={() => handleScrollToSection("history")}>Historia</NavLink></li>
+                  <li><NavLink to="/" onClick={() => handleScrollToSection("mission")}>Misión</NavLink></li>
+                  <li><NavLink to="/" onClick={() => handleScrollToSection("vision")}>Visión</NavLink></li>
+                  <li><NavLink to="/" onClick={() => handleScrollToSection("values")}>Valores</NavLink></li>
                   <div className='btn-container'>
-                     <a href="#" id='btn-cursos-header' className='btn-cursos-header'>Cursos</a>
-                     <a href="#" id='btn-ofrendas-header' className='btn-ofrendas-header'>Ofrendas</a>
+                     <Link to="/Cursos" id='btn-cursos-header' className='btn-cursos-header'>Cursos</Link>
+                     <Link to="/Ofrendas" id='btn-ofrendas-header' className='btn-ofrendas-header'>Ofrendas</Link>
                   </div>
                   <div className='networks-header-container' target='_blank'>
                      <a href="https://www.tiktok.com/@sebastianancona?_t=8jsylBLPDKH&_r=1">
-                        <img id='tiktok-icon' src={TikTok_icon}/>
+                        <img id='tiktok-icon' src={TikTok_icon} />
                      </a>
                      <a href="https://www.instagram.com/sebastianancona?igsh=d3Q5MTV1anI3Mmpm" target='_blank'>
-                        <img id='instagram-icon' src={instagram_icon}/>
+                        <img id='instagram-icon' src={instagram_icon} />
                      </a>
                   </div>
+                  <Outlet />
                </ul>
             </div>
          </nav>
