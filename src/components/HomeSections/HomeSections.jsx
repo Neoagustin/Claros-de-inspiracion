@@ -80,9 +80,10 @@ export default function HistorySection() {
                <div className='vision-text-container'>
                   <h2>VISIÓN</h2>
                   <p>
-                     Traer un despertar por medio de un avivamiento sustentable en el tiempo, por medio de la presencia
-                     manifiesta del Espíritu Santo y por la Palabra de Dios, consolidando y fortaleciendo a las Iglesias por
-                     medio de armas espirituales que ya nos fueron dadas y un plan de acción concreto.
+                     Un avivamiento mundial, un despertar fuerte a las cosas eternas en la Iglesia.
+                     Un derramamiento del Espíritu Santo cómo está profetizado en Joel 2.
+                     El Cielo invadiendo la Tierra en todo lugar donde haya cristianos y lo sobrenatural invadiendo todo lugar para salvación de multitudes.
+                     La Iglesia despierta amando a la segunda venida de Jesús.
                   </p>
                </div>
                <div className='vision-img-container'>

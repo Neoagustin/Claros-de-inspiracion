@@ -142,6 +142,7 @@ font-family: MuliBold;
 .vision-text-container p {
   font-family: MuliLight;
   font-size: 22px;
+  margin-right: 1em;
 }
 
 .vision-img-container {
