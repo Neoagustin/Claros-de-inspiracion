@@ -93,12 +93,12 @@
 #section-legend {
 text-shadow: 4px 4px 6px black;
 font-family: MuliBold;
-font-style: italic;
 }
 
 #leyend {
   font-size: 19px;
   margin-bottom: 1.5em;
+  font-style: italic;
 }
 
 #verse {
