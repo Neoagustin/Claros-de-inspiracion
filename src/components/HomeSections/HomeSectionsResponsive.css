@@ -48,6 +48,16 @@
     max-width: 100%;
   }
 
+  /*? Leyenda */
+  #leyend {
+    font-size: 17px;
+    margin-bottom: 1em;
+  }
+
+  #verse {
+    font-size: 19px;
+  }
+
   /*? MISION */
   .mission-text-container {
     max-width: 400px;
@@ -163,6 +173,16 @@
     color: white;
   }
 
+  /*? Leyenda */
+  #leyend {
+    font-size: 19px;
+    margin-bottom: 1em;
+  }
+
+  #verse {
+    font-size: 21px;
+  }
+
   /*? MISION */
   .mission-text-container {
     max-width: 100%;
@@ -258,6 +278,16 @@
     max-width: 100%;
   }
 
+  /*? Leyenda */
+  #leyend {
+    font-size: 18px;
+    margin-bottom: 1em;
+  }
+
+  #verse {
+    font-size: 20px;
+  }
+
   /*? MISION */
   .mission-text-container ul {
     font-size: 17px;
@@ -299,15 +329,15 @@
     font-size: 1.3rem;
   }
 
-  .values-img-container{
+  .values-img-container {
     height: max-content;
   }
 
-  #img-values  {
+  #img-values {
     display: none;
   }
 
-  #img-values-mobile{
+  #img-values-mobile {
     display: flex;
     border-radius: 0px;
     width: 100%;
@@ -352,6 +382,20 @@
     font-size: 14px;
   }
 
+  /*? Leyenda */
+  #section-legend {
+    padding: 15px;
+  }
+
+  #leyend {
+    font-size: 14px;
+    margin-bottom: 1em;
+  }
+
+  #verse {
+    font-size: 16px;
+  }
+
   /*? MISION */
   .section-mission {
     padding: 15px 15px;
@@ -385,15 +429,15 @@
     margin-bottom: 2em;
   }
 
-  .values-img-container{
+  .values-img-container {
     height: max-content;
   }
 
-  #img-values  {
+  #img-values {
     display: none;
   }
 
-  #img-values-mobile{
+  #img-values-mobile {
     display: flex;
     border-radius: 0px;
     width: 100%;
@@ -421,6 +465,7 @@
 }
 
 @media screen and (max-width: 390px) {
+
   /*? INVITACIONES */
   .invitations-Container p {
     text-align: center;

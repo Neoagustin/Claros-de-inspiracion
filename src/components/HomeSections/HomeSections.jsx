@@ -46,6 +46,11 @@ export default function HistorySection() {
             </div>
          </section>
 
+         <section id='section-legend' className='section-legend section-home' data-aos="fade-right" data-aos-offset="300">
+            <p id='leyend'>" Pero hay alguien que viene después de mí, y que es más poderoso que yo. Él los bautizará con el Espíritu Santo y con fuego. ¡Yo ni siquiera merezco ser su esclavo! "</p>
+            <p id='verse'>Mateo 3:11</p>
+         </section>
+
          <section id='mission' className='section-mission section-home' data-aos="fade-right" data-aos-offset="300">
             <div className='main-section-container'>
                <div className='section-video-container'>

@@ -52,36 +52,6 @@
   text-shadow: 4px 4px 6px black;
 }
 
-.banner-text-leyenda {
-  position: absolute;
-  background-color: rgba(208, 255, 0, 0.369);
-  /*background-color: rgba(255, 0, 102, 0.302);*/
-  border-radius: 20px;
-  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.624);
-  top: 80%;
-  left: 50%;
-  height: max-content;
-  transform: translate(-50%, -35%);
-  text-align: center;
-  color: rgb(255, 255, 255);
-  user-select: none;
-  padding: 10px;
-  width: 35%;
-  z-index: 2;
-}
-
-.banner-text-leyenda p {
-  color: rgb(254, 254, 254);
-  font-family: 'MuliRegular';
-  font-size: 16px;
-  text-shadow: 4px 4px 6px rgb(0, 0, 0);
-}
-
-#versiculo-leyenda {
-  font-family: 'MuliBold';
-  font-size: 18px;
-}
-
 .banner-btn {
   position: absolute;
   top: 60%;
