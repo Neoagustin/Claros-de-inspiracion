@@ -11,10 +11,10 @@ export default function Footer() {
             <div className='networks-footer-container'>
                <h3>Seguinos</h3>
                <ul>
-                  <li><a href="#">
+                  <li><a href="https://www.tiktok.com/@sebastianancona?_t=8jsylBLPDKH&_r=1" target='_blank'>
                      <img id='tiktok-icon' src={TikTok_icon} alt="" />
                   </a></li>
-                  <li><a href="#">
+                  <li><a href="https://www.instagram.com/sebastianancona?igsh=d3Q5MTV1anI3Mmpm" target='_blank'>
                      <img id='instagram-icon' src={instagram_icon} alt="" />
                   </a></li>
                </ul>

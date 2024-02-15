@@ -26,7 +26,7 @@ export default function Header() {
       const historySection = document.getElementById(`${sectionId}`);
       const yOffset = -50;
       const y = historySection.getBoundingClientRect().top + window.pageYOffset + yOffset;
-      window.scrollTo({top: y, behavior: 'smooth'});
+      window.scrollTo({ top: y, behavior: 'smooth' });
 
       setIsOpen(!isOpen);
    };
@@ -49,9 +49,13 @@ export default function Header() {
                      <a href="#" id='btn-cursos-header' className='btn-cursos-header'>Cursos</a>
                      <a href="#" id='btn-ofrendas-header' className='btn-ofrendas-header'>Ofrendas</a>
                   </div>
-                  <div className='networks-header-container'>
-                     <img id='tiktok-icon' src={TikTok_icon} alt="" />
-                     <img id='instagram-icon' src={instagram_icon} alt="" />
+                  <div className='networks-header-container' target='_blank'>
+                     <a href="https://www.tiktok.com/@sebastianancona?_t=8jsylBLPDKH&_r=1">
+                        <img id='tiktok-icon' src={TikTok_icon}/>
+                     </a>
+                     <a href="https://www.instagram.com/sebastianancona?igsh=d3Q5MTV1anI3Mmpm" target='_blank'>
+                        <img id='instagram-icon' src={instagram_icon}/>
+                     </a>
                   </div>
                </ul>
             </div>

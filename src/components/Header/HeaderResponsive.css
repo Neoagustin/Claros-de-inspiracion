@@ -151,6 +151,10 @@
     margin-top: 1em;
   }
 
+  .networks-header-container a {
+    max-width: max-content;
+  }
+
   .networks-header-container img {
     height: auto;
     width: 25px;
