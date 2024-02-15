@@ -299,6 +299,22 @@
     font-size: 1.3rem;
   }
 
+  .values-img-container{
+    height: max-content;
+  }
+
+  #img-values  {
+    display: none;
+  }
+
+  #img-values-mobile{
+    display: flex;
+    border-radius: 0px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+
 }
 
 @media screen and (max-width: 575px) {
@@ -366,11 +382,23 @@
 
   .values-text-container ul {
     font-size: 14px;
-    margin: 0px;
+    margin-bottom: 2em;
   }
 
-  .values-img-container {
+  .values-img-container{
+    height: max-content;
+  }
+
+  #img-values  {
     display: none;
+  }
+
+  #img-values-mobile{
+    display: flex;
+    border-radius: 0px;
+    width: 100%;
+    height: auto;
+    margin: auto;
   }
 
   /*? INVITACIONES */

@@ -15,7 +15,7 @@ export default function Banner() {
     <div className="banner-container">
       <div className="dark-overlay"></div>
       <div className="banner-text">
-        <h1>DESPIERTA A LO ETERNO</h1>
+        <h1>DESPERTÁ A LO ETERNO</h1>
         <p>Ministerio Misionero y Profético </p>
       </div>
       <div className="banner-btn">
