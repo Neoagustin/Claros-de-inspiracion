@@ -8,6 +8,19 @@
   .banner-container {
     margin-top: 80px;
   }
+  
+  .banner-text-leyenda{
+    min-width: 600px;
+  }
+
+  .banner-text-leyenda p {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  #versiculo-leyenda {
+    font-size: 17px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -21,6 +34,23 @@
 
   .banner-text p {
     font-size: 1.9em;
+  }
+
+  .banner-text-leyenda {
+    top: 60%;
+    left: 50%;
+  }
+
+  .banner-text-leyenda{
+    min-width: 400px;
+  }
+
+  .banner-text-leyenda p {
+    font-size: 14px;
+  }
+
+  #versiculo-leyenda {
+    font-size: 16px;
   }
 }
 
@@ -45,5 +75,38 @@
   .banner-btn a {
     font-size: 3.5vw;
     padding: 3vw 9vw;
+  }
+
+  .banner-text-leyenda {
+    top: 65%;
+    left: 50%;
+  }
+  
+  .banner-text-leyenda{
+    min-width: 100%;
+    border-radius: 0px;
+  }
+
+  .banner-text-leyenda p {
+    font-size: 12px;
+  }
+
+  #versiculo-leyenda {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .banner-text-leyenda {
+    top: 60%;
+    left: 50%;
+  }
+
+  .banner-text-leyenda p {
+    font-size: 11px;
+  }
+
+  #versiculo-leyenda {
+    font-size: 13px;
   }
 }

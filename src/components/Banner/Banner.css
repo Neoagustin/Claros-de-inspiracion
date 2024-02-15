@@ -40,19 +40,52 @@
 
 .banner-text h1 {
   font-family: 'Gloucester';
-  font-size: 5em;
+  font-size: 6em;
   font-weight: 100;
+  text-shadow: 4px 4px 6px black;
 }
 
 .banner-text p {
   font-family: 'Gloucester';
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: 100;
+  text-shadow: 4px 4px 6px black;
+}
+
+.banner-text-leyenda {
+  position: absolute;
+  background-color: rgba(208, 255, 0, 0.369);
+  /*background-color: rgba(255, 0, 102, 0.302);*/
+  border-radius: 20px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.624);
+  top: 80%;
+  left: 50%;
+  height: max-content;
+  transform: translate(-50%, -35%);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  user-select: none;
+  padding: 10px;
+  width: 35%;
+  z-index: 2;
+}
+
+.banner-text-leyenda p {
+  color: rgb(254, 254, 254);
+  font-family: 'MuliRegular';
+  font-size: 16px;
+  text-shadow: 4px 4px 6px rgb(0, 0, 0);
+}
+
+#versiculo-leyenda {
+  font-family: 'MuliBold';
+  font-size: 18px;
 }
 
 .banner-btn {
+  display: none;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   height: 150px;
   transform: translate(-50%, 100%);
@@ -68,6 +101,7 @@
   border-radius: 50px;
   box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.519);
   color: white;
+  cursor: pointer;
   font-family: MuliExtraBold;
   font-size: 1.1rem;
   padding: 15px 45px;
@@ -79,5 +113,5 @@
 
 .banner-btn a:hover {
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
-  background-color: #ff6200; 
+  background-color: #ff6200;
 }

@@ -18,6 +18,10 @@ export default function Banner() {
         <h1>DESPERTÁ A LO ETERNO</h1>
         <p>Ministerio Misionero y Profético </p>
       </div>
+      <div className="banner-text-leyenda">
+        <p>Pero hay alguien que viene después de mí, y que es más poderoso que yo. Él los bautizará con el Espíritu Santo y con fuego. ¡Yo ni siquiera merezco ser su esclavo!</p>
+        <p id='versiculo-leyenda'>Mateo 3:11</p>
+      </div>
       <div className="banner-btn">
         <a onClick={scrollToHistory}>VER MÁS</a>
       </div>
