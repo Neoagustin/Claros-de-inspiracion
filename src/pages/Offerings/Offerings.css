@@ -36,6 +36,10 @@
   margin-bottom: 20px;
 }
 
+.offerings-image-MP{
+  max-width: 150px;
+}
+
 .offerings-text .offerings-image {
   width: 100%;
   max-width: 500px;
