@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link, NavLink, Outlet } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import visionImg from '../../../assets/img/ia-vision.jpeg'
@@ -136,7 +137,7 @@ export default function HistorySection() {
 
          <div className='invitations-Container' data-aos="fade-right" data-aos-offset="100">
             <p>PODÉS OFRENDAR</p>
-            <a id='btn-ofrendar'>Ofrendar</a>
+            <Link to="/Ofrendas"  id='btn-ofrendar'>Ofrendar</Link>
          </div>
       </div>
    )
