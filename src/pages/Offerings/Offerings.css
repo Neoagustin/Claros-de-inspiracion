@@ -85,4 +85,15 @@
     text-align: left;
     width: 100%;
   }
+
+  .offerings-image-MP-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+  }
+
+  .offerings-image-MP{
+    align-self: center;
+  }
 }

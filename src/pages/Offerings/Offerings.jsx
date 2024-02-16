@@ -18,7 +18,9 @@ export default function Offerings() {
                <a href="https://link.mercadopago.com.ar/ministerioprofetico" target="_blank" rel="noopener noreferrer">link.mercadopago.com.ar/ministerioprofetico</a>
                <p>(Seleccionas el monto y listo)</p>
                <p>En caso de no tener Mercado Pago, podés ofrendar mediante transferencia al CBU:</p>
-               <img src={offeringImageMP} alt="Mercado Pago" className="offerings-image-MP" />
+               <div className='offerings-image-MP-container'>
+                  <img src={offeringImageMP} alt="Mercado Pago" className="offerings-image-MP" />
+               </div>
                <p id='CBU'>0000007900203802802494</p>
                <p>Si estás en el extranjero, podés enviar tu ofrenda a través de PayPal, en este enlace:</p>
                <a href="https://www.paypal.me/Despertaraloeterno" target="_blank" rel="noopener noreferrer">paypal.me/Despertaraloeterno</a>
