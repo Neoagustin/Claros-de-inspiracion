@@ -193,15 +193,21 @@ font-style: italic;
 }
 
 .testimony-text-container a{
-  color: #FF5722;
-  font-size: 17px;
-  margin-top: 10px;
-  transition: color .3s;
-  text-align: center;
+  background-color: #c53218;
+  border-radius: 0px;
+  color: white;
+  text-decoration: none;
+  width: max-content;
+  margin: auto;
+  margin-top: 1em;
+  padding: 10px;
+  transition: all .3s;
 }
 
 .testimony-text-container a:hover{
-  color: #ff3700;
+  background-color: #ff5b0a;
+  color: white;
+  transform: scale(1.05);
 }
 
 /*? INVITACIONES */

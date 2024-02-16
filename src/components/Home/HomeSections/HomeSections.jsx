@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Link, NavLink, Outlet } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import visionImg from '../../../assets/img/ia-vision.jpeg'
@@ -125,7 +125,7 @@ export default function HistorySection() {
                   <video controls controlsList="nodownload">
                      <source src="https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330" type="video/mp4" />
                   </video>
-                  <a href="">Ver todos los testimonios</a>
+                  <Link to="/Testimonios">Ver todos los testimonios</Link>
                </div>
             </div>
          </section>

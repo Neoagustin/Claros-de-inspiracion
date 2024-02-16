@@ -1,0 +1,90 @@
+/*? MAIN TESTIMONY*/
+.testimonials {
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.testimonials hr {
+  margin: 50px 0px;
+}
+
+.title-testimonials-container {
+  text-align: center;
+  margin-bottom: 50px; /* Agregamos espacio entre el título y el contenido siguiente */
+}
+
+.title-testimonials-container h2 {
+  font-size: 3em; /* Aumentamos el tamaño del título */
+  color: #333; /* Cambiamos el color del texto */
+  text-transform: uppercase; /* Convertimos el texto a mayúsculas */
+  font-weight: bold; /* Añadimos negrita para hacer el título más destacado */
+  letter-spacing: 2px; /* Añadimos espacio entre letras */
+  margin: 0; /* Quitamos el margen predeterminado para el h2 */
+}
+
+
+.testimonials-main-container {
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.main-testimony-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.225);
+}
+
+.main-testimony-container p {
+  font-family: MuliRegular, sans-serif;
+  font-size: 22px;
+  font-style: italic;
+  max-width: 350px;
+  margin: 0px 50px;
+}
+
+.main-video-testimony-container {
+  max-width: 700px;
+  height: auto;
+}
+
+.main-video-testimony-container video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/*? TESTIMONIALS */
+.testimonials-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* Hacemos que los elementos se envuelvan en múltiples líneas */
+  justify-content: space-between;
+  /* Alinear elementos en el contenedor */
+  margin-top: 20px;
+  /* Agregamos un poco de espacio entre el bloque de testimonios y los videos */
+}
+
+.video-testimony-container {
+  width: calc(33.33% - 20px);
+  /* Calculamos el ancho de cada video (el 33.33% representa 3 columnas) */
+  height: 200px;
+  margin-bottom: 20px;
+  /* Espacio entre cada video */
+  /* Agregamos bordes redondeados */
+  overflow: hidden;
+  /* Evitamos que los videos sobresalgan del contenedor */
+}
+
+.video-testimony-container video {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}

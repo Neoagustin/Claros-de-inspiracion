@@ -1,6 +1,4 @@
 import React from 'react';
-import './Home.css';
-import './HomeResponsive.css';
 import Banner from '../../components/Home/Banner/Banner';
 import HistorySection from '../../components/Home/HomeSections/HomeSections';
 
