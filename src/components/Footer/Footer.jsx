@@ -22,9 +22,10 @@ export default function Footer() {
             <div className='training-footer-container'>
                <h3>Mi Formación Profesional en Ministerios</h3>
                <ul>
-                  <li><a href="#">link-ministerio.com</a></li>
-                  <li><a href="#">link-ministerio.com</a></li>
-                  <li><a href="#">link-ministerio.com</a></li>
+                  <li><a href="https://emubaonline.com/">Emubaonline.com</a></li>
+                  <li><a href="https://www.escuelasobrenatural.com/">Escuelasobrenatural.com</a></li>
+                  <li><a href="https://misioninstituto.com/">misioninstituto.com</a></li>
+                  <li><a href="https://fcmonline.com.ar/">fcmonline.com</a></li>
                </ul>
             </div>
             <div className='otherMinistries-footer-container'>

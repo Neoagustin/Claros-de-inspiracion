@@ -1,8 +1,9 @@
 import React from 'react';
+import './Offerings.css'
 
 export default function Offerings() {
    return (
-      <div>
+      <div className='offering-container'>
          <h1>Ofrendas</h1>
          <p>Buenas! Dios te bendiga, queremos contarte que podes ser parte de este ministerio y del avance del Reino de los Cielos por medio de tus ofrendas.</p>
          <p>Las ofrendas están destinadas a sostener el ministerio financieramente. Tanto para el crecimiento y desarrollo de la página web y de los cursos, cómo también los viajes misioneros que se realicen, esto es para bendecir a las Iglesias en distintas partes del mundo.</p>
