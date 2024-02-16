@@ -46,6 +46,7 @@ export default function Header() {
                   <li><NavLink to="/" onClick={() => handleScrollToSection("mission")}>Misión</NavLink></li>
                   <li><NavLink to="/" onClick={() => handleScrollToSection("vision")}>Visión</NavLink></li>
                   <li><NavLink to="/" onClick={() => handleScrollToSection("values")}>Valores</NavLink></li>
+                  <li><NavLink to="/" onClick={() => handleScrollToSection("testimony")}>Testimonios</NavLink></li>
                   <div className='btn-container'>
                      <Link to="/Cursos" id='btn-cursos-header' className='btn-cursos-header' onClick={toggleMenu}>Cursos</Link>
                      <Link to="/Ofrendas" id='btn-ofrendas-header' className='btn-ofrendas-header' onClick={toggleMenu}>Ofrendas</Link>
