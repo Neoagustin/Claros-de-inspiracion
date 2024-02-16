@@ -41,7 +41,6 @@ export default function HistorySection() {
                   <video controls controlsList="nodownload">
                      <source src="https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330" type="video/mp4" />
                   </video>
-                  <a href="#">Leer testimonio completo</a>
                </div>
             </div>
          </section>
@@ -114,6 +113,18 @@ export default function HistorySection() {
                <div className='values-img-container'>
                   <img id='img-values' src={valuesImg} />
                   <img id='img-values-mobile' className='mobile' src={valuesImgMobile} alt="" />
+               </div>
+            </div>
+         </section>
+
+         <section id='testimony' className='section-values section-home' data-aos="fade-right" data-aos-offset="250">
+            <div className='main-section-container'>
+               <div className='testimony-text-container'>
+                  <h2>TESTIMONIOS</h2>
+                  <video controls controlsList="nodownload">
+                     <source src="https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330" type="video/mp4" />
+                  </video>
+                  <a href="">Ver todos los testimonios</a>
                </div>
             </div>
          </section>
