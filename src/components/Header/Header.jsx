@@ -35,7 +35,7 @@ export default function Header() {
    return (
       <header>
          <div>
-            <img onClick={scrollToTop} src={logo} alt="Logo" title='Claro de Inspiracion Logo' />
+            <Link to="/" onClick={scrollToTop}><img onClick={scrollToTop} src={logo} alt="Logo" title='Claro de Inspiracion Logo' /></Link>
          </div>
 
          <nav className={`nav-header ${isOpen ? 'open' : ''}`}>
