@@ -149,7 +149,7 @@ export default function HistorySection() {
 
          <div className='invitations-Container' data-aos="fade-right" data-aos-offset="100">
             <p>PODÉS OFRENDAR</p>
-            <Link to="/Ofrendas" id='btn-ofrendar'>Ofrendar</Link>
+            <Link to="/Ofrendas" id='btn-ofrendar' onClick={scrollToTop}>Ofrendar</Link>
          </div>
       </div>
    )
