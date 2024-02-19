@@ -88,6 +88,11 @@
     margin-right: 3em;
   }
 
+  /*? TESTIMONIOS */
+  .testimony-text-container video {
+    width: 100%;
+  }
+
   /*? INVITACIONES */
   .invitations-Container {
     gap: 1em;
@@ -447,10 +452,10 @@
     margin: auto;
   }
 
-    /*? TESTIMONIOS */
-    .testimony-text-container a {
-      font-size: 14px;
-    }
+  /*? TESTIMONIOS */
+  .testimony-text-container a {
+    font-size: 14px;
+  }
 
   /*? INVITACIONES */
   .invitations-Container {

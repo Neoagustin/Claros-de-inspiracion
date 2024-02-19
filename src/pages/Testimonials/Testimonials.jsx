@@ -1,6 +1,7 @@
 import React from 'react';
 import TestimonyVideo from '../../components/Testimonials/Testimony-video/Testimony-video';
 import './Testimonials.css';
+import './TestimonialsResponsive.css';
 
 export default function Testimonials() {
    const videoUrls = [
@@ -37,9 +38,9 @@ export default function Testimonials() {
                </div>
             </div>
 
-            <hr />
+            <hr id='hr-testimonials' />
 
-            <h2>Otros testimonios</h2>
+            <h2 className='testimonials-title'>Otros testimonios</h2>
             <div className='testimonials-container'>
                {videoUrls.map((url, index) => (
                   <TestimonyVideo key={index} src={url} />
