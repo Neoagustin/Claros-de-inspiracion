@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -16,6 +16,18 @@ export default function HistorySection() {
          once: true,
       });
    }, []);
+
+   const [isOpen, setIsOpen] = useState(false);
+
+   const scrollToTop = () => {
+      window.scrollTo({
+         top: 0,
+         behavior: 'smooth'
+      });
+      if (isOpen === true) {
+         setIsOpen(!isOpen);
+      }
+   };
 
    return (
       <div id='home-sections-container' className='home-sections-container'>
@@ -125,7 +137,7 @@ export default function HistorySection() {
                   <video controls controlsList="nodownload">
                      <source src="https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330" type="video/mp4" />
                   </video>
-                  <Link to="/Testimonios">Ver todos los testimonios</Link>
+                  <Link to="/Testimonios" onClick={scrollToTop}>Ver todos los testimonios</Link>
                </div>
             </div>
          </section>
@@ -137,7 +149,7 @@ export default function HistorySection() {
 
          <div className='invitations-Container' data-aos="fade-right" data-aos-offset="100">
             <p>PODÉS OFRENDAR</p>
-            <Link to="/Ofrendas"  id='btn-ofrendar'>Ofrendar</Link>
+            <Link to="/Ofrendas" id='btn-ofrendar'>Ofrendar</Link>
          </div>
       </div>
    )
