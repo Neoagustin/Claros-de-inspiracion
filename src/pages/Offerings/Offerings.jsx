@@ -1,6 +1,7 @@
 import React from 'react';
 import offeringImage from '../../assets/img/ofrendas.jpg';
 import offeringImageMP from '../../assets/img/ofrendas-MP.jpg'
+import offeringImagePP from '../../assets/img/ofrendas-PP.jpg'
 import './Offerings.css';
 
 export default function Offerings() {
@@ -23,6 +24,9 @@ export default function Offerings() {
                </div>
                <p id='CBU'>0000007900203802802494</p>
                <p>Si estás en el extranjero, podés enviar tu ofrenda a través de PayPal, en este enlace:</p>
+               <div className='offerings-image-MP-container'>
+                  <img src={offeringImagePP} alt="Mercado Pago" className="offerings-image-MP" />
+               </div>
                <a href="https://www.paypal.me/Despertaraloeterno" target="_blank" rel="noopener noreferrer">paypal.me/Despertaraloeterno</a>
             </div>
          </div>
