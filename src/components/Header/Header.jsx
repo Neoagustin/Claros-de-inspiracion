@@ -48,8 +48,8 @@ export default function Header() {
                   <li><NavLink to="/" onClick={() => handleScrollToSection("values")}>Valores</NavLink></li>
                   <li><NavLink to="/" onClick={() => handleScrollToSection("testimony")}>Testimonios</NavLink></li>
                   <div className='btn-container'>
-                     <Link to="/Cursos" id='btn-cursos-header' className='btn-cursos-header' onClick={toggleMenu}>Cursos</Link>
-                     <Link to="/Ofrendas" id='btn-ofrendas-header' className='btn-ofrendas-header' onClick={toggleMenu}>Ofrendas</Link>
+                     <Link to="/Cursos" id='btn-cursos-header' className='btn-cursos-header' onClick={scrollToTop}>Cursos</Link>
+                     <Link to="/Ofrendas" id='btn-ofrendas-header' className='btn-ofrendas-header' onClick={scrollToTop}>Ofrendas</Link>
                   </div>
                   <div className='networks-header-container' target='_blank'>
                      <a href="https://www.tiktok.com/@sebastianancona?_t=8jsylBLPDKH&_r=1">
