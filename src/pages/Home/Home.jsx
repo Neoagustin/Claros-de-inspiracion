@@ -1,6 +1,6 @@
 import React from 'react';
-import Banner from './components/Banner/Banner';
-import HistorySection from './components/HomeSections/HomeSections';
+import Banner from './Components/Banner/Banner';
+import HistorySection from './Components/HomeSections/HomeSections';
 import './Home.css'
 
 export default function Home() {
