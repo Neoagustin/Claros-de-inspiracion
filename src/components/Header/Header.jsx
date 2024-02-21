@@ -23,6 +23,22 @@ export default function Header() {
       }
    };
 
+   const scrollToBottom = () => {
+      const body = document.body;
+      const html = document.documentElement;
+      const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+   
+      window.scrollTo({
+         top: height,
+         behavior: 'smooth'
+      });
+      
+      if (isOpen === true) {
+         setIsOpen(!isOpen);
+      }
+   };
+   
+
    const handleScrollToSection = (sectionId) => {
       const historySection = document.getElementById(`${sectionId}`);
       const yOffset = -50;
@@ -47,6 +63,7 @@ export default function Header() {
                   <li><NavLink to="/" onClick={() => handleScrollToSection("vision")}>Visión</NavLink></li>
                   <li><NavLink to="/" onClick={() => handleScrollToSection("values")}>Valores</NavLink></li>
                   <li><NavLink to="/" onClick={() => handleScrollToSection("testimony")}>Testimonios</NavLink></li>
+                  <li><NavLink to="/" onClick={scrollToBottom}>Contacto</NavLink></li>
                   <div className='btn-container'>
                      <Link to="/Cursos" id='btn-cursos-header' className='btn-cursos-header' onClick={scrollToTop}>Cursos</Link>
                      <Link to="/Ofrendas" id='btn-ofrendas-header' className='btn-ofrendas-header' onClick={scrollToTop}>Ofrendas</Link>

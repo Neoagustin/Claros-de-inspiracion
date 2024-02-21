@@ -58,12 +58,12 @@ export default function HistorySection() {
             </div>
          </section>
 
-         <section id='section-legend' className='section-legend section-home' data-aos="fade-right" data-aos-offset="250">
+         <section id='section-legend' className='section-legend section-home' data-aos="fade-right" data-aos-offset="200">
             <p id='leyend'>" Pero hay alguien que viene después de mí, y que es más poderoso que yo. Él los bautizará con el Espíritu Santo y con fuego. ¡Yo ni siquiera merezco ser su esclavo! "</p>
             <p id='verse'>Mateo 3:11</p>
          </section>
 
-         <section id='mission' className='section-mission section-home' data-aos="fade-right" data-aos-offset="250">
+         <section id='mission' className='section-mission section-home' data-aos="fade-right" data-aos-offset="200">
             <div className='main-section-container'>
                <div className='section-video-container'>
                   <video controls controlsList="nodownload">
@@ -87,7 +87,7 @@ export default function HistorySection() {
             </div>
          </section>
 
-         <section id='vision' className='section-vision section-home' data-aos="fade-right" data-aos-offset="250">
+         <section id='vision' className='section-vision section-home' data-aos="fade-right" data-aos-offset="200">
             <div className='main-section-container'>
                <div className='vision-text-container'>
                   <h2>VISIÓN</h2>
@@ -104,7 +104,7 @@ export default function HistorySection() {
             </div>
          </section>
 
-         <section id='values' className='section-values section-home' data-aos="fade-right" data-aos-offset="250">
+         <section id='values' className='section-values section-home' data-aos="fade-right" data-aos-offset="200">
             <div className='main-section-container'>
                <div className='values-text-container'>
                   <h2>VALORES</h2>
@@ -130,7 +130,7 @@ export default function HistorySection() {
             </div>
          </section>
 
-         <section id='testimony' className='section-values section-home' data-aos="fade-right" data-aos-offset="250">
+         <section id='testimony' className='section-values section-home' data-aos="fade-right" data-aos-offset="200">
             <div className='main-section-container'>
                <div className='testimony-text-container'>
                   <h2>TESTIMONIOS</h2>
