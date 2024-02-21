@@ -1,6 +1,7 @@
 import React from 'react';
 import CourseCard from './Components/CardCourse/CardCourse';
 import './CoursesPage.css';
+import './CoursesPageResponsive.css';
 
 export default function CoursesPage({ courses }) {
    return (

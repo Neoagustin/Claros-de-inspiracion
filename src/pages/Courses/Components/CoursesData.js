@@ -1,4 +1,7 @@
 import img from '../../../assets/img/imgCurso.jpg';
+import img2 from '../../../assets/img/imgCurso2.jpg';
+import img3 from '../../../assets/img/imgCurso3.jpg';
+import imgAuthor from '../../../assets/img/img-Author.jpg';
 
 const courses =
   [
@@ -6,7 +9,7 @@ const courses =
       id: 1,
       title: "Curso de React",
       authorName: "Sebastian Ancona",
-      authorImg: "img.jpg",
+      authorImg: imgAuthor,
       date: "Febrero 16 2024",
       img: img,
       description: "Aprende a construir aplicaciones web utilizando ReactJS",
@@ -45,9 +48,9 @@ const courses =
       id: 2,
       title: "Curso de JavaScript",
       authorName: "Sebastian Ancona",
-      authorImg: "img.jpg",
+      authorImg: imgAuthor,
       date: "Febrero 16 2024",
-      img: "img.jpg",
+      img: img2,
       description: "Aprende los fundamentos del lenguaje de programación JavaScript",
       introductoryVideo: "https://www.youtube.com/watch?v=example",
       classes: [
@@ -58,9 +61,9 @@ const courses =
       id: 3,
       title: "Curso de NodeJS",
       authorName: "Sebastian Ancona",
-      authorImg: "img.jpg",
+      authorImg: imgAuthor,
       date: "Febrero 16 2024",
-      img: "img.jpg",
+      img: img3,
       description: "Aprende a construir aplicaciones backend utilizando Node.js",
       introductoryVideo: "https://www.youtube.com/watch?v=example",
       classes: [
