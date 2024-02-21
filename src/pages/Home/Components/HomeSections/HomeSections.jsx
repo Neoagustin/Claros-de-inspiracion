@@ -135,7 +135,7 @@ export default function HistorySection() {
                <div className='testimony-text-container'>
                   <h2>TESTIMONIOS</h2>
                   <video controls controlsList="nodownload">
-                     <source src="https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Videos%20Home%2FTestimonio.mp4?alt=media&token=a7916cac-30be-470e-b16d-42b1e5fab5d7" type="video/mp4" />
+                     <source src="" type="video/mp4" />
                   </video>
                   <Link to="/Testimonios" onClick={scrollToTop}>Ver todos los testimonios</Link>
                </div>
