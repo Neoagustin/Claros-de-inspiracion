@@ -36,7 +36,7 @@ export default function Footer() {
                </ul>
             </div>
             <div className='training-footer-container'>
-               <h3>Mi Formación Profesional en Ministerios</h3>
+               <h3>Ministerios en los que fui formado</h3>
                <ul>
                   <li><a href="https://emubaonline.com/">Emubaonline.com</a></li>
                   <li><a href="https://www.escuelasobrenatural.com/">Escuelasobrenatural.com</a></li>
@@ -45,7 +45,8 @@ export default function Footer() {
                </ul>
             </div>
             <div className='otherMinistries-footer-container'>
-               <h3>Ministerio Habitat</h3>
+               <h3>Ministerio Habitat <br /><p className='casa-de-oracion'>(Casa de oracion)</p></h3>
+               
                <a href="https://www.habitatco.org/">habitatco.org</a>
             </div>
          </div>
