@@ -15,7 +15,12 @@ export default function Offerings() {
                <div className="image-container">
                   <img src={offeringImage} alt="Ofrendas" className="offerings-image" />
                </div>
+               <div className='verse-offering'>
+                  <p>2 Samuel 24:24
+                     24 —Te lo agradezco —dijo David—, pero yo no puedo ofrecerle a Dios algo que no me haya costado nada. Así que yo te pagaré todo lo que me des.</p>
+               </div>
                <p>Podés ofrendar a través de Mercado Pago si sos de Argentina. acá te dejamos el link:</p>
+               <p>Podemos ver este principio espiritual, de dar al Señor algo que nos cueste. Esto es honrar al Señor, es darle gracias, es reconocer que de Él viene todo.</p>
                <a href="https://link.mercadopago.com.ar/ministerioprofetico" target="_blank" rel="noopener noreferrer">link.mercadopago.com.ar/ministerioprofetico</a>
                <p>(Seleccionas el monto y listo)</p>
                <p>En caso de no tener Mercado Pago, podés ofrendar mediante transferencia al CBU:</p>

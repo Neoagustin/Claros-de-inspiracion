@@ -36,7 +36,7 @@
   margin-bottom: 20px;
 }
 
-.offerings-image-MP{
+.offerings-image-MP {
   max-width: 150px;
 }
 
@@ -46,7 +46,18 @@
   border-radius: 10px;
 }
 
-#CBU{
+.verse-offering p{
+  font-family: MuliBold;
+  font-style: italic;
+  line-height: 150%;
+  font-size: 16px;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+
+#CBU {
   font-family: MuliBold;
 }
 
@@ -62,6 +73,7 @@
     padding: 150px;
     text-align: left;
   }
+
   .offerings-text {
     padding: 20px;
     text-align: left;
@@ -86,14 +98,14 @@
     width: 100%;
   }
 
-  .offerings-image-MP-container{
+  .offerings-image-MP-container {
     width: 100%;
     display: flex;
     justify-content: center;
     padding: 15px 0px;
   }
 
-  .offerings-image-MP{
+  .offerings-image-MP {
     align-self: center;
   }
 }
