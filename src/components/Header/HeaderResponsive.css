@@ -29,7 +29,7 @@
     height: 100%;
     background-color: rgb(34, 34, 34);
     z-index: 3;
-    padding-top: 3em;
+    padding-top: 2em;
     transform: translateX(200%);
     transition: all 0.3s ease;
     overflow-y: auto;
@@ -51,7 +51,7 @@
     text-align: center;
     padding: 0px 0px;
     transition: all 0.3s ease;
-    margin: 10px 0;
+    margin: 7px 0;
   }
 
   .nav-header li:hover {
@@ -61,7 +61,7 @@
 
   .nav-header li a {
     font-family: MuliBold;
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-decoration: none;
     color: rgb(255, 255, 255);
     transition: color 0.3s ease;
@@ -119,7 +119,7 @@
 
   .btn-container {
     flex-direction: column;
-    width: 13em;
+    width: 11em;
   }
 
   #btn-cursos-header {
@@ -128,8 +128,8 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 2em;
-    font-size: 1.3em;
+    height: 1.9em;
+    font-size: 1.2em;
     font-family: MuliBold;
   }
 
@@ -139,8 +139,8 @@
     border: none;
     justify-content: center;
     align-items: center;
-    height: 2em;
-    font-size: 1.3em;
+    height: 1.9em;
+    font-size: 1.2em;
     font-family: MuliBold;
     width: 100%;
   }
@@ -148,7 +148,7 @@
   .networks-header-container {
     display: flex;
     gap: 1.5em;
-    margin-top: 1em;
+    margin-top: .8em;
   }
 
   .networks-header-container a {
@@ -173,7 +173,6 @@
     height: 100%;
     background-color: rgb(34, 34, 34);
     z-index: 3;
-    padding-top: 3em;
     transform: translateX(100%);
     transition: all 0.3s ease;
     overflow-y: auto;
