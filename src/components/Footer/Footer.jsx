@@ -11,7 +11,7 @@ export default function Footer() {
       <footer>
          <div className='main-footer-container'>
             <div className='networks-footer-container'>
-               <h3>Seguinos</h3>
+               <h3>Contacto</h3>
                <ul>
                   <li>
                      <a href="https://www.tiktok.com/@sebastianancona?_t=8jsylBLPDKH&_r=1" target='_blank'>
@@ -49,7 +49,7 @@ export default function Footer() {
                <a href="https://www.habitatco.org/">habitatco.org</a>
             </div>
          </div>
-         <p class='copyright'>&copy; Claros de inspiración 2024</p>
+         <p class='copyright'>&copy; Despertá a lo eterno 2024</p>
       </footer>
    )
 }
