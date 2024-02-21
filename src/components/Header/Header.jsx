@@ -80,7 +80,7 @@ export default function Header() {
                      <a href="https://www.instagram.com/sebastianancona?igsh=d3Q5MTV1anI3Mmpm" target='_blank'>
                         <img id='email-icon' src={email_icon} />
                      </a>
-                     <a href="https://www.instagram.com/sebastianancona?igsh=d3Q5MTV1anI3Mmpm" target='_blank'>
+                     <a href="https://wa.me/5491169779564" target='_blank'>
                         <img id='whatsapp-icon' src={whatsapp_icon} />
                      </a>
                   </div>
