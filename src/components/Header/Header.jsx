@@ -5,6 +5,8 @@ import './HeaderResponsive.css';
 import logo from '../../assets/img/logo.png';
 import TikTok_icon from '../../assets/icons/TikTok.png'
 import instagram_icon from '../../assets/icons/instagram.png'
+import email_icon from '../../assets/icons/email.png'
+import whatsapp_icon from '../../assets/icons/whatsapp.png'
 
 export default function Header() {
    const [isOpen, setIsOpen] = useState(false);
@@ -74,6 +76,12 @@ export default function Header() {
                      </a>
                      <a href="https://www.instagram.com/sebastianancona?igsh=d3Q5MTV1anI3Mmpm" target='_blank'>
                         <img id='instagram-icon' src={instagram_icon} />
+                     </a>
+                     <a href="https://www.instagram.com/sebastianancona?igsh=d3Q5MTV1anI3Mmpm" target='_blank'>
+                        <img id='email-icon' src={email_icon} />
+                     </a>
+                     <a href="https://www.instagram.com/sebastianancona?igsh=d3Q5MTV1anI3Mmpm" target='_blank'>
+                        <img id='whatsapp-icon' src={whatsapp_icon} />
                      </a>
                   </div>
                   <Outlet />
