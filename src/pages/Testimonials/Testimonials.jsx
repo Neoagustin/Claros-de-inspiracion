@@ -1,5 +1,5 @@
 import React from 'react';
-import TestimonyVideo from './components/Testimony-video/Testimony-video';
+import TestimonyVideo from './Components/Testimony-video/Testimony-video';
 import './Testimonials.css';
 import './TestimonialsResponsive.css';
 
