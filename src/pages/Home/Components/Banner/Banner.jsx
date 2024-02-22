@@ -24,7 +24,7 @@ export default function Banner() {
         <a onClick={scrollToHistory}>VER MÁS</a>
       </div>
       <video autoPlay loop muted className="banner-video">
-      <source src="https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2FVideo%20Banner.mp4?alt=media&token=78a0f78b-5efe-4a8c-bc00-12ee99394025" type="video/mp4" />
+      <source src="https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330" type="video/mp4" />
       </video>
     </div>
   )
