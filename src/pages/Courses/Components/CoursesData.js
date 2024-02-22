@@ -18,13 +18,7 @@ const courses =
         {
           id: 1,
           title: "Introducción a React",
-          videos: [
-            {
-              id: 1,
-              title: "Video 1: Conceptos básicos de React",
-              url: "https://www.youtube.com/watch?v=video1"
-            }
-          ]
+          videos: "https://www.youtube.com/watch?v=video1"
         },
         {
           id: 2,
