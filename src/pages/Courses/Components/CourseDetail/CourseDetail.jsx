@@ -1,15 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import ClassItem from '../ClassItem/ClassItem';
+import './CourseDetailResponsive.css'
+import './CourseDetail.css'
 
 export default function CourseDetail({ courses }) {
-   const { id } = useParams(); // Obtiene el ID del curso de la URL
+   const { id } = useParams();
    const [course, setCourse] = useState(null);
 
    useEffect(() => {
       // Busca el curso por ID
       const selectedCourse = courses.find(crse => crse.id === parseInt(id));
       setCourse(selectedCourse);
-      
+
    }, [id, courses]);
 
    if (!course) {
@@ -17,24 +20,34 @@ export default function CourseDetail({ courses }) {
    }
 
    return (
-      <div>
-         <h2>{course.title}</h2>
-         <p>{course.description}</p>
-         <p>Autor: {course.authorName}</p>
-         <p>Fecha: {course.date}</p>
-         <div>
-            <h3>Clases:</h3>
-            {course.classes.map(cls => (
-               <div key={cls.id}>
-                  <p>{cls.title}</p>
-                  <h4>Videos:</h4>
-                  <ul>
-                     {cls.videos.map(video => (
-                        <li key={video.id}>{video.title}</li>
-                     ))}
-                  </ul>
+      <div className='courseDetail-directory'>
+         <div className='courseDetail-banner-section'>
+            <img src={course.img} alt={course.title} />
+            <h1>{course.title}</h1>
+         </div>
+         <div className='courseDetail-container'>
+            <section className='courseDetail-description-section'>
+               <h2>Descripción</h2>
+               <p>{course.description}</p>
+            </section>
+            <section className='courseDetail-introductoryVideo-section'>
+               <h2>Video introductorio</h2>
+               <video src={course.introductoryVideo} controls></video>
+            </section>
+            <section className='courseDetail-classes-section'>
+               <div className='courseDetail-classes-container'>
+                  <div className='courseDetail-classes-title'>
+                     <h3>Clases</h3>
+                  </div>
+                  {course.classes.map(cls => (
+                     <ClassItem
+                        classTitle={cls.title}
+                        src= {cls.video}
+                        key={cls.id}
+                     />
+                  ))}
                </div>
-            ))}
+            </section>
          </div>
       </div>
    );
