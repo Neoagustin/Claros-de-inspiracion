@@ -42,7 +42,8 @@ export default function CourseDetail({ courses }) {
                   {course.classes.map(cls => (
                      <ClassItem
                         classTitle={cls.title}
-                        src= {cls.video}
+                        videoUrl={cls.video}
+                        classId={cls.id}
                         key={cls.id}
                      />
                   ))}

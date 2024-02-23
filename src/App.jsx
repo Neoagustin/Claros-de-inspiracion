@@ -8,6 +8,7 @@ import CourseDetail from './pages/Courses/Components/CourseDetail/CourseDetail';
 import Testimonials from './pages/Testimonials/Testimonials'
 import Footer from './components/Footer/Footer';
 import CoursesData from './pages/Courses/Components/CoursesData'
+import CourseClass from './pages/Courses/Components/CourseClass/CourseClass';
 
 export default function App() {
 
@@ -21,6 +22,7 @@ export default function App() {
         <Route path='/Cursos' element={<Courses courses={CoursesData} />} />
         <Route path='/Testimonios' element={<Testimonials />} />
         <Route path='/curso/:id' element={<CourseDetail courses={CoursesData} />} />
+        <Route path='/CourseClass/:id' element={<CourseClass courses={CoursesData} />} />
       </Routes>
 
       <Footer />

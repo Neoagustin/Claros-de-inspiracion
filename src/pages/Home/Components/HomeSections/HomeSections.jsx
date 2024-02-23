@@ -52,7 +52,7 @@ export default function HistorySection() {
 
                <div className='section-video-container'>
                   <video controls controlsList="nodownload">
-                     <source src="https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330" type="video/mp4" />
+                     <source src="https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Videos%20Home%2FVideo%20Historia.mp4?alt=media&token=9fbade6f-b0b0-4d4e-9fef-5a51bb3995ee" type="video/mp4" />
                   </video>
                </div>
             </div>
