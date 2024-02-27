@@ -16,6 +16,16 @@ export default function CourseClass({ courses }) {
    const [currentIndex, setCurrentIndex] = useState(initialIndex);
    const [videoKey, setVideoKey] = useState(0);
 
+   const scrollToTop = () => {
+      window.scrollTo({
+         top: 0,
+         behavior: 'smooth'
+      });
+      if (isOpen === true) {
+         setIsOpen(!isOpen);
+      }
+   };
+
    useEffect(() => {
       navigate(`/CourseClass/${courseId}/${selectedCourse.classes[currentIndex].id}`);
    }, [currentIndex, courseId, navigate, selectedCourse.classes]);
@@ -23,6 +33,7 @@ export default function CourseClass({ courses }) {
    const handleChangeClass = (index) => {
       setCurrentIndex(index);
       setVideoKey(prevKey => prevKey + 1);
+      scrollToTop()
    };
 
    const handlePrevious = () => {
