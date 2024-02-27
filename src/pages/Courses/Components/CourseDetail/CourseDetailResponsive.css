@@ -45,13 +45,17 @@
     line-height: 1.5;
   }
 
+  .class-container{
+    align-items: center;
+  }
+
   .class-container p {
     font-size: 14px;
   }
 
-  #start-title {
+  .start-title {
     font-size: 12px;
-    max-height: 21px;
+    max-height: 24px;
   }
 }
 
