@@ -1,31 +1,72 @@
-import React from 'react';
-import { useParams } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
+import './CourseClass.css';
+import './CourseClassResponsive.css';
 
 export default function CourseClass({ courses }) {
-   const { id } = useParams();
+   const navigate = useNavigate();
+   const { courseId, classId } = useParams();
+   const selectedCourse = courses.find(course => course.id === parseInt(courseId));
 
-   let clase = null; 
+   if (!selectedCourse) {
+      return <div>Curso no encontrado</div>;
+   }
 
-   courses.forEach(course => {
-      const claseEncontrada = course.classes.find(cls => cls.id === parseInt(id));
-      if (claseEncontrada) {
-         clase = claseEncontrada;
-         return;
-      }
-   });
+   const initialIndex = selectedCourse.classes.findIndex(cls => cls.id === parseInt(classId));
+   const [currentIndex, setCurrentIndex] = useState(initialIndex);
+   const [videoKey, setVideoKey] = useState(0);
+
+   useEffect(() => {
+      navigate(`/CourseClass/${courseId}/${selectedCourse.classes[currentIndex].id}`);
+   }, [currentIndex, courseId, navigate, selectedCourse.classes]);
+
+   const handleChangeClass = (index) => {
+      setCurrentIndex(index);
+      setVideoKey(prevKey => prevKey + 1);
+   };
+
+   const handlePrevious = () => {
+      setCurrentIndex(prevIndex => prevIndex > 0 ? prevIndex - 1 : prevIndex);
+      setVideoKey(prevKey => prevKey + 1);
+      navigate(`/CourseClass/${courseId}/${selectedCourse.classes[currentIndex - 1].id}`);
+   };
+
+   const handleNext = () => {
+      setCurrentIndex(prevIndex => prevIndex < selectedCourse.classes.length - 1 ? prevIndex + 1 : prevIndex);
+      setVideoKey(prevKey => prevKey + 1);
+      navigate(`/CourseClass/${courseId}/${selectedCourse.classes[currentIndex + 1].id}`);
+   };
 
    return (
-      <div>
-         <h1>{clase.title}</h1>
-         <iframe
-            width="560"
-            height="315"
-            src={`https://www.youtube.com/embed/${id}`}
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-         ></iframe>
+      <div className="courseClass-main-container">
+         <div className="class-list">
+            <h2>Clases</h2>
+            <ul>
+               {selectedCourse.classes.map((cls, index) => (
+                  <li key={cls.id} className={index === currentIndex ? 'active' : ''}>
+                     <button
+                        onClick={() => handleChangeClass(index)}
+                        className={index === currentIndex ? 'selected-class-button' : 'class-button'}
+                     >
+                        <i id='play-icon' class="fa-solid fa-play"></i> {cls.title}
+                     </button>
+                  </li>
+               ))}
+            </ul>
+         </div>
+         <div className="courseClass-content">
+            <h1>{selectedCourse.classes[currentIndex].title}</h1>
+            <div className="courseClass-video-container">
+               <video key={videoKey} controls>
+                  <source src={selectedCourse.classes[currentIndex].video} type="video/mp4" />
+               </video>
+            </div>
+
+            <div className='buttons-class-container'>
+               <button className='previous-class-button' onClick={handlePrevious}>Anterior</button>
+               <button className='next-class-button' onClick={handleNext}>Siguiente</button>
+            </div>
+         </div>
       </div>
    );
 }

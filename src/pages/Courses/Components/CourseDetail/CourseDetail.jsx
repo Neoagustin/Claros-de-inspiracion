@@ -41,8 +41,8 @@ export default function CourseDetail({ courses }) {
                   </div>
                   {course.classes.map(cls => (
                      <ClassItem
+                        courseId={course.id}
                         classTitle={cls.title}
-                        videoUrl={cls.video}
                         classId={cls.id}
                         key={cls.id}
                      />

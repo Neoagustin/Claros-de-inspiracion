@@ -58,7 +58,7 @@
 @media screen and (max-width: 390px) {
   .courseDetail-directory h1 {
     font-size: 27px;
-    left: 5px;
+    left: 0px;
   }
 
   .courseDetail-directory h2{
