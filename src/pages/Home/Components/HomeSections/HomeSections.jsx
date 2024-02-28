@@ -51,13 +51,13 @@ export default function HistorySection() {
                </div>
 
                <div className='section-video-container'>
+                  <h3 id='history-title'>¿Vas a adorar en medio del desierto?</h3>
                   <video controls controlsList="nodownload">
                      <source src="https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Videos%20Home%2FVideo%20Historia.mp4?alt=media&token=9fbade6f-b0b0-4d4e-9fef-5a51bb3995ee" type="video/mp4" />
                   </video>
                </div>
             </div>
          </section>
-
          <section id='section-legend' className='section-legend section-home' data-aos="fade-right" data-aos-offset="200">
             <p id='leyend'>" Pero hay alguien que viene después de mí, y que es más poderoso que yo. Él los bautizará con el Espíritu Santo y con fuego. ¡Yo ni siquiera merezco ser su esclavo! "</p>
             <p id='verse'>Mateo 3:11</p>

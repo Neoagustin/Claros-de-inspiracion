@@ -57,12 +57,20 @@
   font-size: 17px;
 }
 
+#history-title {
+  color: rgba(255, 255, 255, 0.793);
+  font-size: 24px;
+  font-family: MuliBold;
+  text-align: center;
+}
+
 .section-video-container {
   display: flex;
   flex-direction: column;
   height: 360px;
   width: 550px;
   overflow: hidden;
+  align-items: center;
 }
 
 .section-video-container video {
@@ -79,9 +87,9 @@
 
 /*? Leyenda */
 #section-legend {
-text-shadow: 4px 4px 6px black;
-font-family: MuliBold;
-font-style: italic;
+  text-shadow: 4px 4px 6px black;
+  font-family: MuliBold;
+  font-style: italic;
 }
 
 #leyend {
@@ -183,22 +191,22 @@ font-style: italic;
 }
 
 /*? TESTIMONIOS */
-.testimony-text-container{
+.testimony-text-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.testimony-text-container h2{
+.testimony-text-container h2 {
   margin-right: auto;
 }
 
-.testimony-text-container video{
+.testimony-text-container video {
   width: 80%;
 }
 
-.testimony-text-container a{
+.testimony-text-container a {
   background-color: #c53218;
   border-radius: 0px;
   color: white;
@@ -210,7 +218,7 @@ font-style: italic;
   transition: all .3s;
 }
 
-.testimony-text-container a:hover{
+.testimony-text-container a:hover {
   background-color: #ff5b0a;
   color: white;
   transform: scale(1.05);
