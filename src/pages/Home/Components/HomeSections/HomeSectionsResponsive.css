@@ -352,6 +352,13 @@
     height: max-content;
   }
 
+  .testimony-text-container h3 {
+    color: rgba(255, 255, 255, 0.793);
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: .3em;
+  }
+
   #img-values {
     display: none;
   }
@@ -479,6 +486,10 @@
     font-size: 14px;
   }
 
+  #testimony-title {
+    font-size: 20px;
+  }
+
   /*? INVITACIONES */
   .invitations-Container {
     padding: 15px;
@@ -507,6 +518,11 @@
 
   .section-video-container video {
     margin-top: .7em;
+  }
+
+  /*? TESTIMONIOS */
+  #testimony-title {
+    font-size: 16px;
   }
 
   /*? INVITACIONES */

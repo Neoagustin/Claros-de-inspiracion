@@ -134,6 +134,7 @@ export default function HistorySection() {
             <div className='main-section-container'>
                <div className='testimony-text-container'>
                   <h2>TESTIMONIOS</h2>
+                  <h3 id='testimony-title'>Experiencia con el paraiso</h3>
                   <video controls controlsList="nodownload">
                      <source src="https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Videos%20Home%2FTestimonio-Home.mp4?alt=media&token=f39bc8ba-d4bc-45bb-8e3d-e4781c090f60" type="video/mp4" />
                   </video>
