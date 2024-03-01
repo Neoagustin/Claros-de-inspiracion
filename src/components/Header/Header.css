@@ -1,20 +1,20 @@
 header {
   align-items: center;
   background-color: black;
-  color: white;
+  color: #fff;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 100px;
-  padding: 15px 25px;
+  height: 80px;
+  padding: 0 50px;
   width: 100%;
 }
 
 header img {
   cursor: pointer;
-  height: 50px;
+  height: 40px;
   transition: transform .3s ease-in-out;
-  width: 50px;
+  width: 40px;
 }
 
 header img:hover {
@@ -26,6 +26,8 @@ header img:hover {
 }
 
 .nav-header a {
+  color: #ccc;
+  text-decoration: none;
   transition: color .3s, border .3s, background .3s;
 }
 
@@ -37,51 +39,64 @@ header img:hover {
   gap: 15px;
 }
 
-.nav-header li a {
-  color: rgb(211, 211, 211);
-  text-decoration: none;
-}
-
 .nav-header li a:hover {
   color: #FF5B1E;
 }
 
-.btn-cursos-header,
-.btn-ofrendas-header {
-  border-radius: 50px;
-  color: white;
-  display: block;
-  padding: 8px 0px;
+.btn-header{
+  border-radius: 25px;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
-  width: 120px;
 }
 
-#btn-cursos-header,
-#btn-ofrendas-header:hover {
-  color: white;
+#btn-tienda-header {
+  background-color: #ff620000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5em;
+}
+
+#btn-tienda-header:hover {
+  border: 1px solid #ff5a1e00;
+  background-color: #ff6200;
 }
 
 .btn-container {
   display: flex;
-  gap: 1em;
+  gap: 15px;
 }
 
 .btn-cursos-header {
   border: 1px solid #FF5B1E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5em;
+  transition: all .3s;
 }
 
 .btn-cursos-header:hover {
+  border: 1px solid #ff5a1e00;
   background-color: #ff6200;
 }
 
 .btn-ofrendas-header {
   border: 1px solid #FF5B1E;
-  background-color: #FF5B1E;
+  background-color: #ff6200;
+  transition: all .3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5em;
 }
 
 .btn-ofrendas-header:hover {
-  background-color: #ff6200;
+  border: 1px solid #ff5a1e00;
+  background-color: #ff9f00;
 }
 
 .networks-header-container {

@@ -124,7 +124,7 @@
 
   #btn-cursos-header {
     display: flex;
-    background-color: #FF5B1E;
+    background-color: #ff5a1e00;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -133,9 +133,13 @@
     font-family: MuliBold;
   }
 
+  #btn-cursos-header:hover {
+    background-color: #ff6200;
+  }
+
   #btn-ofrendas-header {
     display: flex;
-    background-color: #ffbf00;
+    background-color: #ff6200;
     border: none;
     justify-content: center;
     align-items: center;
@@ -143,6 +147,17 @@
     font-size: 1.2em;
     font-family: MuliBold;
     width: 100%;
+  }
+
+  #btn-tienda-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 1.9em;
+    font-size: 1.2em;
+    width: 100%;
+    font-family: MuliBold;
   }
 
   .networks-header-container {
