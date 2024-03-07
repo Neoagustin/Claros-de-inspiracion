@@ -427,7 +427,7 @@
 
   .floating-button {
     box-shadow: 0px 0px 10px rgba(255, 120, 1, 0.911);
-    bottom: 15px;
+    bottom: 35%;
     font-size: 14px;
     padding: 25px 7px;
     letter-spacing: 2px;
