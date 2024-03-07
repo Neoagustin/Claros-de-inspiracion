@@ -1,4 +1,4 @@
-import img1 from '../../../assets/img/imgCurso1.jpg';
+import img1 from '../../../assets/img/imgCurso1.jpeg';
 import img2 from '../../../assets/img/imgCurso2.jpg';
 import img3 from '../../../assets/img/imgCurso3.jpg';
 import imgAuthor from '../../../assets/img/img-Author.jpg';
