@@ -1,62 +1,50 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './FloatingButton.css';
 
 function FloatingButton() {
-   const [position, setPosition] = useState({ x: 0, y: 0 });
-   const [dragging, setDragging] = useState(false);
+  const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [isDragging, setIsDragging] = useState(false);
 
-   const handleMouseDown = (event) => {
-      event.stopPropagation();
-      setDragging(true);
-      const offsetX = event.clientX - position.x;
-      const offsetY = event.clientY - position.y;
-      const handleMouseMove = (event) => {
-         setPosition({
-            x: event.clientX - offsetX,
-            y: event.clientY - offsetY
-         });
-      };
-      const handleMouseUp = () => {
-         setDragging(false);
-         window.removeEventListener('mousemove', handleMouseMove);
-         window.removeEventListener('mouseup', handleMouseUp);
-      };
-      window.addEventListener('mousemove', handleMouseMove);
-      window.addEventListener('mouseup', handleMouseUp);
-   };
+  useEffect(() => {
+    // Calculamos la posición inicial cuando se monta el componente
+    const initialX = window.innerWidth - 150; // Ajusta el valor según sea necesario
+    const initialY = window.innerHeight - 100; // Ajusta el valor según sea necesario
+    setPosition({ x: initialX, y: initialY });
+  }, []); // El segundo argumento de useEffect asegura que se ejecute solo una vez al montar el componente
 
-   const handleTouchStart = (event) => {
-      event.stopPropagation();
-      const touch = event.touches[0];
-      const offsetX = touch.clientX - position.x;
-      const offsetY = touch.clientY - position.y;
-      const handleTouchMove = (event) => {
-         event.preventDefault();
-         const touch = event.touches[0];
-         setPosition({
-            x: touch.clientX - offsetX,
-            y: touch.clientY - offsetY
-         });
-      };
-      const handleTouchEnd = () => {
-         window.removeEventListener('touchmove', handleTouchMove);
-         window.removeEventListener('touchend', handleTouchEnd);
-      };
-      window.addEventListener('touchmove', handleTouchMove);
-      window.addEventListener('touchend', handleTouchEnd);
-   };
+  const handleTouchStart = (e) => {
+    setIsDragging(true);
+    setPosition({
+      x: e.touches[0].clientX - e.target.offsetLeft,
+      y: e.touches[0].clientY - e.target.offsetTop
+    });
+  };
 
-   return (
-      <div
-         className={`floating-button ${dragging ? 'dragging' : ''}`}
-         style={{ left: position.x, top: position.y }}
-         onMouseDown={handleMouseDown}
-         onTouchStart={handleTouchStart}
-      >
-         <Link to="/Cursos">Cursos</Link>
-      </div>
-   );
+  const handleTouchMove = (e) => {
+    if (isDragging) {
+      setPosition({
+        x: e.touches[0].clientX - e.target.offsetLeft,
+        y: e.touches[0].clientY - e.target.offsetTop
+      });
+    }
+  };
+
+  const handleTouchEnd = () => {
+    setIsDragging(false);
+  };
+
+  return (
+    <div
+      className={`floating-button ${isDragging ? 'dragging' : ''}`}
+      style={{ top: position.y, left: position.x }}
+      onTouchStart={handleTouchStart}
+      onTouchMove={handleTouchMove}
+      onTouchEnd={handleTouchEnd}
+    >
+      <Link to="/Cursos">Cursos</Link>
+    </div>
+  );
 }
 
 export default FloatingButton;

@@ -1,21 +1,25 @@
 .floating-button {
   position: fixed;
-
-  background-color: #007bff; /* Color de fondo */
-  color: #fff; /* Color del texto */
-  padding: 10px 20px; /* Espaciado interno */
-  border-radius: 30px; /* Borde redondeado */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
-  z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
-  cursor: pointer; /* Cambia el cursor al pasar el mouse */
-  user-select: none; /* Evita que el texto sea seleccionable */
+  background-color: #007bff;
+  padding: 25px 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  touch-action: none;
+  z-index: 100;
 }
 
-.floating-button a {
-  text-decoration: none; /* Sin subrayado en el enlace */
-  color: inherit; /* Usa el color de texto del botón */
+.floating-button a{
+  color: white;
+  text-decoration: none;
 }
 
 .floating-button:hover {
-  background-color: #0056b3; /* Color de fondo al pasar el mouse */
+  background-color: #0056b3;
+}
+
+.floating-button.dragging {
+  opacity: 0.7;
+  background-color: #0056b3;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
 }

@@ -8,9 +8,10 @@ export default function Home() {
   return (
     <>
       <main className='main-home'>
-        <FloatingButton />
+        
         <Banner />
         <HistorySection />
+        <FloatingButton />
       </main>
     </>
   )
