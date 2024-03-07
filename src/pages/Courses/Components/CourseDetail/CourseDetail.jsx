@@ -32,7 +32,7 @@ export default function CourseDetail({ courses }) {
             </section>
             <section className='courseDetail-introductoryVideo-section'>
                <h2>Video introductorio</h2>
-               <video src={course.introductoryVideo} controls></video>
+               <video src={course.introductoryVideo} onContextMenu={(e) => e.preventDefault()} controls controlsList="nodownload"></video>
             </section>
             <section className='courseDetail-classes-section'>
                <div className='courseDetail-classes-container'>

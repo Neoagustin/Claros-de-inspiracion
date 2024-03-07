@@ -68,7 +68,7 @@ export default function CourseClass({ courses }) {
          <div className="courseClass-content">
             <h1>{selectedCourse.classes[currentIndex].title}</h1>
             <div className="courseClass-video-container">
-               <video key={videoKey} controls>
+               <video key={videoKey} onContextMenu={(e) => e.preventDefault()} controls controlsList="nodownload">
                   <source src={selectedCourse.classes[currentIndex].video} type="video/mp4" />
                </video>
             </div>
