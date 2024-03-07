@@ -7,11 +7,10 @@ function FloatingButton() {
   const [isDragging, setIsDragging] = useState(false);
 
   useEffect(() => {
-    // Calculamos la posición inicial cuando se monta el componente
-    const initialX = window.innerWidth - 150; // Ajusta el valor según sea necesario
-    const initialY = window.innerHeight - 100; // Ajusta el valor según sea necesario
+    const initialX = window.innerWidth - 80;
+    const initialY = window.innerHeight - 300;
     setPosition({ x: initialX, y: initialY });
-  }, []); // El segundo argumento de useEffect asegura que se ejecute solo una vez al montar el componente
+  }, []);
 
   const handleTouchStart = (e) => {
     setIsDragging(true);
@@ -23,10 +22,18 @@ function FloatingButton() {
 
   const handleTouchMove = (e) => {
     if (isDragging) {
-      setPosition({
-        x: e.touches[0].clientX - e.target.offsetLeft,
-        y: e.touches[0].clientY - e.target.offsetTop
-      });
+      const newX = e.touches[0].clientX - e.target.offsetLeft;
+      const newY = e.touches[0].clientY - e.target.offsetTop;
+
+      // Verificar los límites de la ventana del navegador
+      const maxX = window.innerWidth - 70;
+      const maxY = window.innerHeight - 70;
+
+      // Ajustar la posición si excede los límites
+      const adjustedX = Math.max(0, Math.min(newX, maxX));
+      const adjustedY = Math.max(0, Math.min(newY, maxY));
+
+      setPosition({ x: adjustedX, y: adjustedY });
     }
   };
 

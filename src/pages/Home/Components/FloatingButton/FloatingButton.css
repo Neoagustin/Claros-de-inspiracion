@@ -1,8 +1,9 @@
 .floating-button {
   position: fixed;
-  background-color: #007bff;
+  background-color: #007bffd1;
   padding: 25px 10px;
   border-radius: 50px;
+  font-family: 'MuliBold', sans-serif;
   cursor: pointer;
   transition: background-color 0.3s ease;
   touch-action: none;
@@ -22,4 +23,11 @@
   opacity: 0.7;
   background-color: #0056b3;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 768px) {
+  .floating-button {
+    font-size: 14px;
+    padding: 20px 7px;
+  }
 }
