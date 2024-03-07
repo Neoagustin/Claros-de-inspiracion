@@ -64,6 +64,30 @@
   text-align: center;
 }
 
+.button-container {
+  text-align: center;
+}
+
+.toggleHistory-btn {
+  background-color: #f44814;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-family: 'MuliExtraBold', sans-serif;
+  font-size: 1rem;
+  padding: 6px 15px;
+  margin-top: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.toggleHistory-btn:hover {
+  background-color: #cf3607;
+}
+
+
 .section-video-container {
   display: flex;
   flex-direction: column;

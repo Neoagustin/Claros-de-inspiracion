@@ -400,12 +400,17 @@
 
   .history-text-container p {
     font-size: 14px;
-    margin-bottom: 2em;
+    margin-bottom: 0em;
   }
 
   #history-title {
     font-size: 19px;
     width: 100%;
+  }
+
+  .toggleHistory-btn {
+    margin: 1.3em 0 2em;
+    font-size: 14px;
   }
 
   .section-video-container {

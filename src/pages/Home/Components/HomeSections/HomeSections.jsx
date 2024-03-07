@@ -29,25 +29,40 @@ export default function HistorySection() {
       }
    };
 
+   const [showFullHistory, setShowFullHistory] = useState(false);
+
+   const historyText = `Todo comienza en marzo de 2017, me encontraba orando en el cuarto de madrugada, y empiezo a sentir mucha electricidad en mi brazo izquierdo, era una electricidad con fuerza que no paraba, y escucho la voz del Espíritu Santo diciéndome: con esta mano vas a sanar enfermos, dar vista a ciegos, sordos van a oír, paralíticos andar y demonios salir fuera. Esto se repitió algunas noches. Un día orando con un hermano, sin contarle nada de esto a nadie, él toma mi brazo izquierdo, lo levanta y mientras mi brazo se llena de electricidad, me dice Dios dice que con esta mano vas a sanar enfermos, liberar endemoniados, dar vista a ciegos, Dios te da un llamado misionero.
+
+   Pasado los años comencé a ver parte del cumplimiento de estas cosas en el ministerio de evangelismo.
+
+   Comenzando la pandemia en 2020, entre en un tiempo de soledad con Dios (desierto), donde estaba solo Él y yo. En esa temporada Él comenzó a hablarme sobre un llamado Misionero y Profético muy fuerte, y sobre ir a Estados Unidos. Dios lo confirmo además nuevamente por medio de otras personas que no sabían nada.
+
+   Comenzando a orar desde 2020 hasta 2022 con un amigo, cosas sobrenaturales ocurrían en su casa, y la gloria de Dios se manifestaba por horas, Dios le da la visión a mi amigo Guido Dalé de construir una casa de Oración, la que hoy se llama Habitat, de la cual hoy (2024) formo parte del ministerio.
+
+   Paralelamente a esto, en pandemia, Dios me da una visión muy fuerte donde veo a Jesús volviendo con millares de ángeles y un reloj que marcaba las 12 de la noche (es decir la medianoche) y escucho como pocas veces en mi vida la voz tan fuerte y clara de Dios diciéndome DESPERTÁ A MI NOVIA, DESPERTÁ A MI NOVIA, DESPERTÁ A MI NOVIA, tres veces seguidas.
+
+   Comencé a predicar no solo a los que me rodeaban, sino por redes sociales, haciéndose viral este mensaje del regreso de Jesús.
+
+   Iniciado el año 2024 en medio de un ayuno de 2 días, Dios me habla con Hageo, donde dice ustedes se han engordado mientras mi casa está en ruinas. Ahí El Espíritu Santo con mucho amor me confronta y nace este ministerio para equipar y despertar a la Iglesia a los asuntos eternos.`;
+
+   const toggleHistory = () => {
+      setShowFullHistory(!showFullHistory);
+   };
+
    return (
       <div id='home-sections-container' className='home-sections-container'>
          <section id='history' className='history-section section-home'>
             <div id='history-main-container' className='main-section-container'>
                <div className='history-text-container'>
                   <h2>HISTORIA</h2>
-                  <p>Todo comienza en marzo de 2017, me encontraba orando en el cuarto de madrugada, y empiezo a sentir mucha electricidad en mi brazo izquierdo, era una electricidad con fuerza que no paraba, y escucho la voz del Espíritu Santo diciéndome: con esta mano vas a sanar enfermos, dar vista a ciegos, sordos van a oír, paralíticos andar y demonios salir fuera. Esto se repitió algunas noches. Un día orando con un hermano, sin contarle nada de esto a nadie, él toma mi brazo izquierdo, lo levanta y mientras mi brazo se llena de electricidad, me dice Dios dice que con esta mano vas a sanar enfermos, liberar endemoniados, dar vista a ciegos, Dios te da un llamado misionero.
-
-                     Pasado los años comencé a ver parte del cumplimiento de estas cosas en el ministerio de evangelismo.
-
-                     Comenzando la pandemia en 2020, entre en un tiempo de soledad con Dios (desierto), donde estábamossolo Él y yo. En esa temporada Él comenzó a hablarme sobre un llamado Misionero y Profético muy fuerte, y sobre ir a Estados Unidos. Dios lo confirmo además nuevamente por medio de otras personas que no sabían nada.
-
-                     Comenzando a orar desde 2020 hasta 2022 con un amigo, cosas sobrenaturales ocurrian en su casa, y la gloria de Dios se manifestaba por horas, Dios le da la visión a mi amigo Guido Dalé de contruir una casa de Oración, la que hoy se llama Habitat,  de la cual hoy (2024) formo parte del ministerio.
-
-                     Paralelamente a esto, en pandemia, Dios me da una visión muy fuerte donde veo a Jesús volviendo con millares de ángeles y un reloj que marcaba las 12 de la noche (es decir la media noche) y escuchocomo pocas veces en mi vida la vos tan fuerte y clara de Dios diciéndome DESPERTÁ A MI NOVIA, DESPERTÁ A MI NOVIA, DESPERTÁ A MI NOVIA, tres veces seguidas.
-
-                     Comencé a predicar no solo a los que me rodeaban, sino por redes sociales, haciéndose viral este mensaje del regreso de Jesús.
-
-                     Iniciado el año 2024 en medio de un ayuno de 2 días, Dios me habla con Hageo, donde dice ustedes se han engordado mientras mi casa está en ruinas. Ahí El Espíritu Santo con mucho amor me confronta y nace este  ministerio para equipar y despertar a la Iglesia a los asuntos eternos.</p>
+                  <p>
+                     {showFullHistory ? historyText : `${historyText.slice(0, 600)}...`}
+                  </p>
+                  <div className='button-container'>
+                     <button className='toggleHistory-btn' onClick={toggleHistory}>
+                        {showFullHistory ? 'Ver menos' : 'Leer más'}
+                     </button>
+                  </div>
                </div>
 
                <div className='section-video-container'>

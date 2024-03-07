@@ -85,10 +85,11 @@ header img:hover {
 }
 
 .btn-ofrendas-header {
-  border: 1px solid #FF5B1E;
-  background-color: #ff6200;
+  border: 1px solid #ff9500;
+  background-color: #ff9500;
   transition: all .3s;
   display: flex;
+  font-family: 'MuliBold';
   justify-content: center;
   align-items: center;
   gap: .5em;
@@ -96,7 +97,7 @@ header img:hover {
 
 .btn-ofrendas-header:hover {
   border: 1px solid #ff5a1e00;
-  background-color: #ff9f00;
+  background-color: #ffbf00;
 }
 
 .networks-header-container {

@@ -16,109 +16,33 @@ const courses = [
     En este curso, exploraremos lo que vieron de Él los héroes de la fe como Abraham, profetas como Isaías y apóstoles como Pedro. Exploraremos toda la Biblia desde Génesis con Adán hasta Apocalipsis con el Apóstol Juan, examinando en detalle la revelación que los llevó a entregarlo todo por Él. También responderemos a la pregunta de quién es Jesucristo y cómo anhelar Su presencia de la misma manera que los santos lo hicieron a lo largo de la historia.
 
     Acompáñanos en esta serie profunda y apasionante mientras exploramos la esencia de Jesucristo y descubrimos cómo cultivar un anhelo genuino por Él en nuestras vidas. ¿Cuánto deseas a Jesús?`,
-    introductoryVideo: "https://www.youtube.com/watch?v=example",
+    introductoryVideo: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FIntroduccion%20Curso%201.mp4?alt=media&token=f46760ac-0b74-4d8f-b23a-42c12bd8034c",
     classes: [
       {
         id: 1,
         title: "Introducción a React",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
+        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FClase%201.mp4?alt=media&token=25e3bb0e-9ff3-4228-ac6d-8b414332846e"
       },
       {
         id: 2,
         title: "Componentes en React",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
+        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FClase%202.mp4?alt=media&token=190adb9e-8999-420f-8a03-c343515068ec"
       },
       {
         id: 3,
         title: "Estado en React",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
+        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FClase%203.mp4?alt=media&token=0b8bb732-7543-4400-87ce-86dada123c06"
       },
       {
         id: 4,
         title: "Ciclo de vida de componentes",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
+        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FClase%204.mp4?alt=media&token=28b1c3ee-57b8-4228-bad7-f49e9b6b661c"
       },
       {
         id: 5,
         title: "Hooks en React",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
+        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FClase%205.mp4?alt=media&token=2ad1d626-220b-4e32-89dc-fe6d538cd1fc"
       },
-      {
-        id: 6,
-        title: "React Router",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 7,
-        title: "Redux",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 8,
-        title: "Testing en React",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 9,
-        title: "Estilizado en React",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 10,
-        title: "Deployment de aplicaciones React",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      // Agregamos más clases aquí...
-      {
-        id: 11,
-        title: "Context API",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 12,
-        title: "Next.js",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 13,
-        title: "Server-Side Rendering",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 14,
-        title: "Firebase con React",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 15,
-        title: "GraphQL con React",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 16,
-        title: "Redux Thunk",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 17,
-        title: "React Native",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 18,
-        title: "Performance Optimization",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 19,
-        title: "TypeScript con React",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 20,
-        title: "Proyecto Final",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      }
     ]
   },
   {
