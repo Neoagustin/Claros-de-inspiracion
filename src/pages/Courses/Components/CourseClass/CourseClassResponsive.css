@@ -6,6 +6,22 @@
   .class-button:hover {
     background-color: #f0f0f0;
   }
+
+  .courseClass-main-container {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .class-list {
+    order: 2;
+    margin-top: 5em;
+    width: 100%;
+    overflow-y: visible;
+  }
+
+  .class-list ul {
+    background-color: white;
+  }
 }
 
 @media screen and (max-width: 767px) {

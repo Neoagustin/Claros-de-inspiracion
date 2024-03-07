@@ -59,7 +59,7 @@ export default function CourseClass({ courses }) {
                         onClick={() => handleChangeClass(index)}
                         className={index === currentIndex ? 'selected-class-button' : 'class-button'}
                      >
-                        <i id='play-icon' class="fa-solid fa-play"></i> {cls.title}
+                        <i id='play-icon' class="fa-solid fa-play"></i> <p className='title-class'><span className='title-bold'>Clase {cls.id}: </span><span>{cls.title}</span></p>
                      </button>
                   </li>
                ))}

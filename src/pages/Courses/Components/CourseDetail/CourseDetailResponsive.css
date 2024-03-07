@@ -11,11 +11,16 @@
 @media screen and (max-width: 767px) {}
 
 @media screen and (max-width: 575px) {
+
+  .title-class span:nth-child(2) {
+    width: 250px;
+  }
+
   .courseDetail-directory h1 {
     font-size: 30px;
   }
 
-  .courseDetail-directory h2{
+  .courseDetail-directory h2 {
     font-size: 22px;
     margin-bottom: 15px;
   }
@@ -45,7 +50,7 @@
     line-height: 1.5;
   }
 
-  .class-container{
+  .class-container {
     align-items: center;
   }
 
@@ -60,12 +65,18 @@
 }
 
 @media screen and (max-width: 390px) {
+  .title-class span:nth-child(2) {
+    max-width: 150px;
+    width: auto;
+
+  }
+
   .courseDetail-directory h1 {
     font-size: 27px;
     left: 0px;
   }
 
-  .courseDetail-directory h2{
+  .courseDetail-directory h2 {
     font-size: 20px;
     margin-bottom: 10px;
   }

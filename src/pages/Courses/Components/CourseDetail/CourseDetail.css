@@ -2,6 +2,27 @@
   background-color: rgb(255, 255, 255);
 }
 
+.title-class {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: .5em;
+  word-wrap: break-word;
+}
+
+.title-class span {
+  display: inline-block;
+  max-width: max-content;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.title-bold{
+  font-family: 'MuliBold', sans-serif;
+}
+
+
 .courseDetail-directory h1{
   position: absolute;
   bottom: 20px;

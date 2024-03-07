@@ -6,10 +6,10 @@ import imgAuthor from '../../../assets/img/img-Author.jpg';
 const courses = [
   {
     id: 1,
-    title: "Curso de React",
+    title: "Avivamiento",
     authorName: "Sebastian Ancona",
     authorImg: imgAuthor,
-    date: "Febrero 16 202",
+    date: "Marzo 2024",
     img: img1,
     description: `A lo largo de estas décadas en mi caminar con el Señor, he llegado a una conclusión: al final del día, lo único que verdaderamente satisface el alma es Jesús. Es con este corazón que hemos diseñado este curso, con el objetivo de adentrarnos en el estudio de quién es este hermoso hombre.
 
@@ -20,27 +20,27 @@ const courses = [
     classes: [
       {
         id: 1,
-        title: "Clase 1 Ambientes correctos y actitud correcta",
+        title: "Ambientes correctos y actitud correcta",
         video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FClase%201.mp4?alt=media&token=25e3bb0e-9ff3-4228-ac6d-8b414332846e"
       },
       {
         id: 2,
-        title: "Clase 2 Venciendo la tentación del hacer",
+        title: "Venciendo la tentación del hacer",
         video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FClase%202.mp4?alt=media&token=190adb9e-8999-420f-8a03-c343515068ec"
       },
       {
         id: 3,
-        title: 'Clase 3: [Renuncias Parte 1]',
+        title: 'Renuncias Parte 1',
         video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FClase%203.mp4?alt=media&token=0b8bb732-7543-4400-87ce-86dada123c06"
       },
       {
         id: 4,
-        title: "Clase 4 Aprendiendo a descansar en su presencia",
+        title: "Aprendiendo a descansar en su presencia",
         video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FClase%204.mp4?alt=media&token=28b1c3ee-57b8-4228-bad7-f49e9b6b661c"
       },
       {
         id: 5,
-        title: "Clase 5 renuncias parte 2",
+        title: "Renuncias parte 2",
         video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FClase%205.mp4?alt=media&token=2ad1d626-220b-4e32-89dc-fe6d538cd1fc"
       },
     ]
