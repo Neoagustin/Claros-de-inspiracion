@@ -52,11 +52,6 @@ export default function HistorySection() {
    return (
       <div id='home-sections-container' className='home-sections-container'>
 
-         {/* Boton flotante para ingresar a cursos */}
-         <div className="floating-button">
-            <Link to="/Cursos">Cursos</Link>
-         </div>
-
          {/*Secciones del Home */}
          <section id='history' className='history-section section-home'>
             <div id='history-main-container' className='main-section-container'>
