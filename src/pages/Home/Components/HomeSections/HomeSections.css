@@ -11,6 +11,10 @@
   z-index: 3;
 }
 
+.floating-button {
+  display: none;
+}
+
 .home-sections-container h2 {
   font-family: MuliBold;
   font-size: 48px;

@@ -69,7 +69,7 @@ export default function Header() {
                   <div className='btn-container'>
                      <Link to="/Cursos" id='btn-cursos-header' className='btn-cursos-header btn-header' onClick={scrollToTop}><i class="fa-solid fa-book-bible"></i> Cursos</Link>
                      <Link to="/Cursos" id='btn-tienda-header' className='btn-cursos-header btn-header' onClick={scrollToTop}><i class="fa-solid fa-cart-shopping"></i> Tienda</Link>
-                     <Link to="/Ofrendas" id='btn-ofrendas-header' className='btn-ofrendas-header btn-header' onClick={scrollToTop}><i class="fa-solid fa-hands-holding-child"></i> Ofrendas</Link>
+                     <Link to="/Ofrendas" id='btn-ofrendas-header' className='btn-ofrendas-header btn-header' onClick={scrollToTop}>Ofrendas</Link>
                   </div>
                   <div className='networks-header-container' target='_blank'>
                      <a href="https://www.tiktok.com/@sebastianancona?_t=8jsylBLPDKH&_r=1">
