@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import visionImg from '../../../../assets/img/ia-vision.jpeg'
-import valuesImg from '../../../../assets/img/ia-valores.jpeg'
-import valuesImgMobile from '../../../../assets/img/ia-valores-mobile.jpg'
-import './HomeSections.css'
-import './HomeSectionsResponsive.css'
+import visionImg from '../../../../assets/img/ia-vision.jpeg';
+import valuesImg from '../../../../assets/img/ia-valores.jpeg';
+import valuesImgMobile from '../../../../assets/img/ia-valores-mobile.jpg';
+import './HomeSections.css';
+import './HomeSectionsResponsive.css';
 
 export default function HistorySection() {
    useEffect(() => {
@@ -47,6 +47,27 @@ export default function HistorySection() {
 
    const toggleHistory = () => {
       setShowFullHistory(!showFullHistory);
+   };
+
+   const valuesList = [
+      'Creemos en Jesucristo como Hijo de Dios y como Dios mismo.',
+      'Creemos que Dios es Uno, Padre, Hijo y Espíritu Santo.',
+      'Creemos en la Vida Eterna y resurrección de los muertos.',
+      'Creemos en que Jesús vuelve pronto a Reinar.',
+      'Creemos en El Cielo y en el infierno.',
+      'Creemos que la Iglesia es una.',
+      'Creemos que la salvación es por gracia, 100% mérito de Cristo Jesús y no de hombres.',
+      'Creemos que la Biblia es inspirada por Dios y es Palabra de Dios.',
+      'Buscamos el amor a Dios y a las personas sobre todas las cosas.',
+      'Predicar el Evangelio a toda criatura.',
+      'Vivir una vida sencilla amando a la gente, haciendo y deseando el bien a los demás, con un estilo de vida profundo de devoción a Dios.',
+      'No negociamos la única verdad frente a tanto engaño; Jesucristo es el Único Dios verdadero.'
+   ];
+
+   const [showFullValues, setShowFullValues] = useState(false);
+
+   const toggleValues = () => {
+      setShowFullValues(!showFullValues);
    };
 
    return (
@@ -121,24 +142,20 @@ export default function HistorySection() {
             </div>
          </section>
 
-         <section id='values' className='section-values section-home' data-aos="fade-right" data-aos-offset="200">
+         <section id='values' className='section-values section-home'>
             <div className='main-section-container'>
                <div className='values-text-container'>
                   <h2>VALORES</h2>
                   <ul>
-                     <li>Creemos en Jesucristo como Hijo de Dios y como Dios mismo.</li>
-                     <li>Creemos que Dios es Uno, Padre, Hijo y Espíritu Santo.</li>
-                     <li>Creemos en la Vida Eterna y resurrección de los muertos.</li>
-                     <li>Creemos en que Jesús vuelve pronto a Reinar.</li>
-                     <li>Creemos en El Cielo y en el infierno.</li>
-                     <li>Creemos que la Iglesia es una.</li>
-                     <li>Creemos que la salvación es por gracia, 100% mérito de Cristo Jesús y no de hombres.</li>
-                     <li>Creemos que la Biblia es inspirada por Dios y es Palabra de Dios.</li>
-                     <li>Buscamos el amor a Dios y a las personas sobre todas las cosas.</li>
-                     <li>Predicar el Evangelio a toda criatura.</li>
-                     <li>Vivir una vida sencilla amando a la gente, haciendo y deseando el bien a los demás, con un estilo de vida profundo de devoción a Dios.</li>
-                     <li>No negociamos la única verdad frente a tanto engaño; Jesucristo es el Único Dios verdadero.</li>
+                     {valuesList.map((value, index) => (
+                        <li key={index} style={{ display: showFullValues || index < 3 ? 'block' : 'none' }}>{value}</li>
+                     ))}
                   </ul>
+                  <div className='seeMore-btn-container'>
+                     <button id='seeMore-btn-values' className='toggleHistory-btn' onClick={toggleValues}>
+                        {showFullValues ? 'Ver menos' : 'Leer más'}
+                     </button>
+                  </div>
                </div>
                <div className='values-img-container'>
                   <img id='img-values' src={valuesImg} />
@@ -160,15 +177,15 @@ export default function HistorySection() {
             </div>
          </section>
 
-         <div className='invitations-Container' data-aos="fade-right" data-aos-offset="100">
+         <div className='invitations-Container'>
             <p>INGRESÁ A NUESTROS CURSOS AHORA</p>
             <Link to="/Cursos" id='btn-cursos' onClick={scrollToTop}>Cursos</Link>
          </div>
 
-         <div className='invitations-Container' data-aos="fade-right" data-aos-offset="100">
+         <div className='invitations-Container'>
             <p>PODÉS OFRENDAR</p>
             <Link to="/Ofrendas" id='btn-ofrendar' onClick={scrollToTop}>Ofrendar</Link>
          </div>
       </div>
-   )
+   );
 }

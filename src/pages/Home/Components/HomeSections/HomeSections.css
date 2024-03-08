@@ -69,6 +69,15 @@
   text-align: center;
 }
 
+.seeMore-btn-container {
+  text-align: center;
+
+}
+
+#seeMore-btn-values {
+  margin-top: 0px;
+}
+
 .toggleHistory-btn {
   background-color: #f44814;
   border: none;
