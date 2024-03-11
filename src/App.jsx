@@ -9,6 +9,7 @@ import Testimonials from './pages/Testimonials/Testimonials';
 import Footer from './components/Footer/Footer';
 import CoursesData from './pages/Courses/Components/CoursesData';
 import CourseClass from './pages/Courses/Components/CourseClass/CourseClass';
+import Store from './pages/Store/Store';
 
 export default function App() {
   // Obtener la ubicación actual
@@ -20,7 +21,7 @@ export default function App() {
   return (
     <>
       <Header />
-      
+
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/Ofrendas' element={<Offerings />} />
@@ -28,6 +29,7 @@ export default function App() {
         <Route path='/Testimonios' element={<Testimonials />} />
         <Route path='/curso/:id' element={<CourseDetail courses={CoursesData} />} />
         <Route path='/CourseClass/:courseId/:classId' element={<CourseClass courses={CoursesData} />} />
+        <Route path='/Tienda' element={<Store />} />
       </Routes>
 
       {/* Mostrar el Footer solo si no estamos en la ruta de CourseClass */}

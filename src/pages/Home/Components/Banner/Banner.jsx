@@ -1,4 +1,5 @@
-import React from 'react';
+import {React} from 'react';
+import { Link } from 'react-router-dom';
 import './Banner.css';
 import './BannerResponsive.css';
 
@@ -21,7 +22,7 @@ export default function Banner() {
       </div>
 
       <div className="banner-btn">
-        <a onClick={scrollToHistory}>VER CURSOS</a>
+        <Link to="/Cursos" onClick={scrollToHistory}>VER CURSOS</Link>
       </div>
       <video autoPlay loop muted className="banner-video">
         <source src="https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330" type="video/mp4" />

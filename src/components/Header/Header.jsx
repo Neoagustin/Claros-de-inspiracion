@@ -68,7 +68,7 @@ export default function Header() {
                   <li><NavLink to="/" onClick={scrollToBottom}>Contacto</NavLink></li>
                   <div className='btn-container'>
                      <Link to="/Cursos" id='btn-cursos-header' className='btn-cursos-header btn-header' onClick={scrollToTop}><i class="fa-solid fa-book-bible"></i> Cursos</Link>
-                     <Link to="/Cursos" id='btn-tienda-header' className='btn-cursos-header btn-header' onClick={scrollToTop}><i class="fa-solid fa-cart-shopping"></i> Tienda</Link>
+                     <Link to="/Tienda" id='btn-tienda-header' className='btn-cursos-header btn-header' onClick={scrollToTop}><i class="fa-solid fa-cart-shopping"></i> Tienda</Link>
                      <Link to="/Ofrendas" id='btn-ofrendas-header' className='btn-ofrendas-header btn-header' onClick={scrollToTop}>Ofrendas</Link>
                   </div>
                   <div className='networks-header-container' target='_blank'>

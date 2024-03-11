@@ -1,6 +1,11 @@
+.floating-button{
+  display: none;
+}
+
 @media screen and (max-width: 1199px) {
   .floating-button {
     position: fixed;
+    display: flex;
     bottom: -100px;
     right: 20px;
     background-color: #007bff;
