@@ -7,7 +7,10 @@ export default function Store() {
       <div className='store-desktop'>
          <div className='store-container'>
             <h1>Nuestros Diseños</h1>
-            <p>Podés ver y encargar tu prenda a través de nuestro Instagram: <a href="#">Instagram.com</a></p>
+            <div className='store-subtitle-container'>
+               <p>Encargá tu prenda a través de nuestro Instagram: </p>
+               <a href="https://www.instagram.com/generaciondeelias/" target="_blank" rel="noopener noreferrer">@generaciondeelias</a>
+            </div>
 
             <section className='store-cards-section'>
                <h3>BUZOS</h3>
