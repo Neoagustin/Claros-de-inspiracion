@@ -1,8 +1,10 @@
-import img from '../../assets/img/imgs-store/buzo-jesus-negro.png'
+import React from 'react';
+import Garments from './StoreData';
 import './Store.css';
 import './StoreResponsive.css';
 
 export default function Store() {
+
    return (
       <div className='store-desktop'>
          <div className='store-container'>
@@ -15,28 +17,31 @@ export default function Store() {
             <section className='store-cards-section'>
                <h3>BUZOS</h3>
                <div className='store-cards-container'>
-                  <a>
-                     <img src={img} alt="" />
-                  </a>
-                  <a>
-                     <img src={img} alt="" />
-                  </a>
-                  <a>
-                     <img src={img} alt="" />
-                  </a>
+                  {
+                     Garments.map(garment => {
+
+                        if (garment.type === 'sweatshirt') {
+                           return (
+                              <a key={garment.id}>
+                                 <img src={garment.url} alt="" />
+                              </a>
+                           );
+                        }
+                     })
+                  }
                </div>
 
                <h3>REMERAS</h3>
                <div className='store-cards-container'>
-                  <a>
-                     <img src={img} alt="" />
-                  </a>
-                  <a>
-                     <img src={img} alt="" />
-                  </a>
-                  <a>
-                     <img src={img} alt="" />
-                  </a>
+                  {Garments.map(garment => {
+                     if (garment.type === 't-shirt') {
+                        return (
+                           <a key={garment.id}>
+                              <img src={garment.url} alt="" />
+                           </a>
+                        );
+                     }
+                  })}
                </div>
             </section>
          </div>
