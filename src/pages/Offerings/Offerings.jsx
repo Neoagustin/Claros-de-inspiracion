@@ -30,7 +30,6 @@ export default function Offerings() {
                      <img src={offeringImageMP} alt="Mercado Pago" className="offerings-image-MP" />
                   </div>
                   <a href="https://link.mercadopago.com.ar/ministerioprofetico" target="_blank" rel="noopener noreferrer">link.mercadopago.com.ar/ministerioprofetico</a>
-                  <p>(Seleccionas el monto y listo)</p>
                   <img src={QR_MercadoPago} alt="" className='offerings-image-MP' />
                   <p>CBU:</p>
                   <p id='CBU'>0000007900203802802494</p>

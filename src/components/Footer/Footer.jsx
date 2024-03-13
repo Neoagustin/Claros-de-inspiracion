@@ -19,7 +19,7 @@ export default function Footer() {
                      </a>
                   </li>
                   <li>
-                     <a href="https://www.instagram.com/sebastianancona?igsh=d3Q5MTV1anI3Mmpm" target='_blank'>
+                     <a href="https://www.instagram.com/desperta.a.lo.eterno/" target='_blank'>
                         <img id='instagram-icon' src={instagram_icon} alt="" />
                      </a>
                   </li>

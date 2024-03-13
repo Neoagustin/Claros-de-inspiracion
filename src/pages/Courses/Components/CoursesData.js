@@ -16,7 +16,7 @@ const courses = [
     En este curso, exploraremos lo que vieron de Él los héroes de la fe como Abraham, profetas como Isaías y apóstoles como Pedro. Exploraremos toda la Biblia desde Génesis con Adán hasta Apocalipsis con el Apóstol Juan, examinando en detalle la revelación que los llevó a entregarlo todo por Él. También responderemos a la pregunta de quién es Jesucristo y cómo anhelar Su presencia de la misma manera que los santos lo hicieron a lo largo de la historia.
 
     Acompáñanos en esta serie profunda y apasionante mientras exploramos la esencia de Jesucristo y descubrimos cómo cultivar un anhelo genuino por Él en nuestras vidas. ¿Cuánto deseas a Jesús?`,
-    introductoryVideo: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FIntroduccion%20Curso%20Avivamiento.mp4?alt=media&token=6ddfda49-f16a-475e-b886-e78c0b74f431",
+    introductoryVideo: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FIntroduccion%20Curso%20Avivamiento.mp4?alt=media&token=1f0b32f8-186e-436c-aa7e-739f38f64985",
     classes: [
       {
         id: 1,
@@ -41,7 +41,13 @@ const courses = [
       {
         id: 5,
         title: "Renuncias parte 2",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FClase%205.mp4?alt=media&token=2ad1d626-220b-4e32-89dc-fe6d538cd1fc"
+        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FClase%205.mp4?alt=media&token=830fd30b-2214-4864-9e41-ee6a028a37e9"
+      },
+
+      {
+        id: 6,
+        title: "El arma más poderosa",
+        video: " https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FClase%206.mp4?alt=media&token=f8776d1f-3613-4b06-8c98-37d53d29bd12"
       },
     ]
   },
