@@ -29,7 +29,7 @@ export default function Footer() {
                      </a>
                   </li>
                   <li>
-                     <a href="https://wa.me/5491169779564" target='_blank'>
+                     <a href="https://wa.me/5491136758853" target='_blank'>
                         <img id='whatsapp-icon' src={whatsapp_icon} alt="" />
                      </a>
                   </li>

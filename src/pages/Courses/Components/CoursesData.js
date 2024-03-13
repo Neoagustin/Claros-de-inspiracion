@@ -16,7 +16,7 @@ const courses = [
     En este curso, exploraremos lo que vieron de Él los héroes de la fe como Abraham, profetas como Isaías y apóstoles como Pedro. Exploraremos toda la Biblia desde Génesis con Adán hasta Apocalipsis con el Apóstol Juan, examinando en detalle la revelación que los llevó a entregarlo todo por Él. También responderemos a la pregunta de quién es Jesucristo y cómo anhelar Su presencia de la misma manera que los santos lo hicieron a lo largo de la historia.
 
     Acompáñanos en esta serie profunda y apasionante mientras exploramos la esencia de Jesucristo y descubrimos cómo cultivar un anhelo genuino por Él en nuestras vidas. ¿Cuánto deseas a Jesús?`,
-    introductoryVideo: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FIntroduccion%20Curso%201.mp4?alt=media&token=f46760ac-0b74-4d8f-b23a-42c12bd8034c",
+    introductoryVideo: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FIntroduccion%20Curso%20Avivamiento.mp4?alt=media&token=6ddfda49-f16a-475e-b886-e78c0b74f431",
     classes: [
       {
         id: 1,

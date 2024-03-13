@@ -13,7 +13,7 @@
     border-radius: 50px;
     transition: transform 0.5s ease, opacity 0.5s ease;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    z-index: 50;
+    z-index: 3;
   }
   
   .floating-button a{
