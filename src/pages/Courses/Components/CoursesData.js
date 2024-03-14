@@ -11,11 +11,14 @@ const courses = [
     authorImg: imgAuthor,
     date: "Marzo 2024",
     img: img1,
-    description: `A lo largo de estas décadas en mi caminar con el Señor, he llegado a una conclusión: al final del día, lo único que verdaderamente satisface el alma es Jesús. Es con este corazón que hemos diseñado este curso, con el objetivo de adentrarnos en el estudio de quién es este hermoso hombre.
-
-    En este curso, exploraremos lo que vieron de Él los héroes de la fe como Abraham, profetas como Isaías y apóstoles como Pedro. Exploraremos toda la Biblia desde Génesis con Adán hasta Apocalipsis con el Apóstol Juan, examinando en detalle la revelación que los llevó a entregarlo todo por Él. También responderemos a la pregunta de quién es Jesucristo y cómo anhelar Su presencia de la misma manera que los santos lo hicieron a lo largo de la historia.
-
-    Acompáñanos en esta serie profunda y apasionante mientras exploramos la esencia de Jesucristo y descubrimos cómo cultivar un anhelo genuino por Él en nuestras vidas. ¿Cuánto deseas a Jesús?`,
+    description: `Este curso nace de un ardiente deseo en mi corazón por ver un avivamiento en la Iglesia de Jesucristo en esta generación. Es mi mayor deseo que Él Señor levanté a los Elías de esta generación. Elías significa Yawhe es el Verdadero Dios. En una generación de falsos profetas, Dios levanta un Elías que manifiesta el poder del TodoPoderoso. En esta generación de tantas falsas religiones, falsos profetas y falsos maestros, Dios está despertando una generación de Elías, que prepararán el Camino del Señor para su Segunda venida. 
+    Por esto nació en mi corazón, dar a la Iglesia de lo que Dios me dió en esta última década. Hoy a mis 30 años, es mi deseo viajar por el mundo llevando el evangelio de Jesucristo con poder y fuego.
+    En este curso vamos a ver llaves para vivir una vida de avivamiento, cada clase es una perla que Dios me a dado en estos años, para entregársela a los hambrientos de esta generación. 
+    Espero que caiga en buena tierra y de fruto en tu vida. 
+    Que despierte el corazón de muchos a amar más a Jesús, a pasar más tiempo con Él y menos tiempo con cosas pasajeras y sin sentido. 
+    Necesitamos un despertar a la eternidad, un impacto en nuestro espíritu de revelación de los lugares Celestiales, para entender que estamos de paso y necesitamos un avivamiento. 
+    Que este curso encienda tu vida y puedas encender a otros. 
+    No olvides compartir este curso a otros si bendijo tu vida. Vamos juntos!`,
     introductoryVideo: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FIntroduccion%20Curso%20Avivamiento.mp4?alt=media&token=1f0b32f8-186e-436c-aa7e-739f38f64985",
     classes: [
       {
@@ -49,14 +52,24 @@ const courses = [
         title: "El arma más poderosa",
         video: " https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FClase%206.mp4?alt=media&token=f8776d1f-3613-4b06-8c98-37d53d29bd12"
       },
+      {
+        id: 7,
+        title: "El carácter sostiene el avivamiento",
+        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FClase%207.mp4?alt=media&token=b670afe5-fc8a-4118-a24a-eb77d826318b"
+      },
+      {
+        id: 8,
+        title: "El pecado apaga el avivamiento",
+        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FClase%208.mp4?alt=media&token=a0049245-3ff5-44b9-9bd7-9fe7b87fa363"
+      },
     ]
   },
   {
     id: 2,
-    title: "Curso de JavaScript",
+    title: "El Proceso del Desierto",
     authorName: "Sebastian Ancona",
     authorImg: imgAuthor,
-    date: "Febrero 16 202",
+    date: "Proximamente...",
     img: img2,
     description: `JavaScript es uno de los lenguajes de programación más populares y versátiles del mundo. En este curso, nos sumergiremos en los fundamentos de JavaScript y exploraremos cómo se puede utilizar para crear aplicaciones web interactivas y dinámicas.
 
@@ -67,113 +80,17 @@ const courses = [
     classes: [
       {
         id: 1,
-        title: "Introducción a JavaScript",
+        title: "Proximamente...",
         video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
       },
-      {
-        id: 2,
-        title: "Funciones en JavaScript",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 3,
-        title: "Arrays y Objetos en JavaScript",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 4,
-        title: "Estructuras de control en JavaScript",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 5,
-        title: "DOM Manipulation",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 6,
-        title: "Eventos en JavaScript",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 7,
-        title: "Promesas y Asincronía",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 8,
-        title: "API Fetch",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 9,
-        title: "ES6+",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 10,
-        title: "Proyecto Final",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      // Agregamos más clases aquí...
-      {
-        id: 11,
-        title: "Async/Await",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 12,
-        title: "Module Bundlers",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 13,
-        title: "Webpack",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 14,
-        title: "JS Tooling",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 15,
-        title: "Debugging",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 16,
-        title: "JavaScript Libraries",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 17,
-        title: "Testing JavaScript",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 18,
-        title: "JavaScript Frameworks",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 19,
-        title: "Performance Optimization",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 20,
-        title: "Proyecto Final Avanzado",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      }
     ]
   },
   {
     id: 3,
-    title: "Curso de NodeJS",
+    title: "Apocalipsis",
     authorName: "Sebastian Ancona",
     authorImg: imgAuthor,
-    date: "Febrero 16 202",
+    date: "Proximamente...",
     img: img3,
     description: `Node.js es una plataforma de desarrollo de código abierto que permite a los desarrolladores crear aplicaciones de red rápidas y escalables. En este curso, exploraremos cómo utilizar Node.js para construir aplicaciones web y API backend.
 
@@ -184,105 +101,9 @@ const courses = [
     classes: [
       {
         id: 1,
-        title: "Introducción a Node.js",
+        title: "Proximamente...",
         video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
       },
-      {
-        id: 2,
-        title: "Express.js",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 3,
-        title: "Middleware en Express.js",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 4,
-        title: "Autenticación y Autorización",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 5,
-        title: "Conexión a Base de Datos",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 6,
-        title: "RESTful APIs",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 7,
-        title: "Websockets",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 8,
-        title: "Testing en Node.js",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 9,
-        title: "Despliegue de aplicaciones Node.js",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 10,
-        title: "Proyecto Final",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      // Agregamos más clases aquí...
-      {
-        id: 11,
-        title: "GraphQL con Node.js",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 12,
-        title: "Serverless con Node.js",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 13,
-        title: "ORMs en Node.js",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 14,
-        title: "Scalability",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 15,
-        title: "Microservicios",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 16,
-        title: "Docker y Node.js",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 17,
-        title: "Server-Side Rendering con Node.js",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 18,
-        title: "WebAssembly y Node.js",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 19,
-        title: "Debugging Avanzado",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      },
-      {
-        id: 20,
-        title: "Proyecto Final Avanzado",
-        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Banner%20Video%2Fbanner-video-new.mp4?alt=media&token=be1ff45d-0112-4e79-add6-6f909305d330"
-      }
     ]
   }
 ];
