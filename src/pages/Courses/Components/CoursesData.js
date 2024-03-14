@@ -71,11 +71,12 @@ const courses = [
     authorImg: imgAuthor,
     date: "Proximamente...",
     img: img2,
-    description: `JavaScript es uno de los lenguajes de programación más populares y versátiles del mundo. En este curso, nos sumergiremos en los fundamentos de JavaScript y exploraremos cómo se puede utilizar para crear aplicaciones web interactivas y dinámicas.
-
-    Aprenderemos sobre conceptos clave como variables, tipos de datos, estructuras de control, funciones y objetos en JavaScript. Además, exploraremos técnicas avanzadas como el manejo de eventos, la manipulación del DOM y las llamadas a API.
-
-    Este curso es ideal para cualquier persona que quiera comenzar a aprender JavaScript, ya sea un principiante absoluto o un desarrollador experimentado que desee mejorar sus habilidades. Únete a nosotros y comienza tu viaje en el emocionante mundo de JavaScript.`,
+    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum quisquam aliquam ab fuga, consectetur sit quasi totam labore doloremque eligendi numquam voluptate, vel doloribus maxime harum dicta et iste provident?
+    Incidunt, asperiores libero? Quibusdam soluta dignissimos vitae. Et consequuntur magnam minus quasi quis quibusdam impedit nobis ipsum perferendis sequi eligendi voluptatum, repudiandae harum rerum veritatis sunt aperiam perspiciatis, eius debitis.
+    Mollitia architecto nemo cupiditate, quis sequi vitae cumque tempore ab hic reprehenderit laboriosam earum eius fugit nam ipsa aliquid expedita dolore nobis accusamus necessitatibus unde consequuntur. Quisquam quas aperiam sunt!
+    Rerum at itaque porro delectus, enim placeat id aut quisquam, optio temporibus tenetur, animi voluptatum? Dicta doloribus aperiam vitae modi earum error quaerat dignissimos, sunt voluptatem dolorem est quibusdam enim!
+    Repellat fugit fuga eaque consequatur, nostrum ipsum inventore quo adipisci iure optio rem laboriosam a id vel ipsam sequi accusantium dolore illum iusto libero temporibus consequuntur officiis tempore. Ipsa, doloribus?
+    Placeat, nisi illo iusto repellat inventore quisquam error ullam ipsum velit culpa pariatur! Velit, voluptatum adipisci. Officiis, voluptates saepe nesciunt impedit temporibus, quisquam esse dolore, voluptatum rem porro quis aspernatur?`,
     introductoryVideo: "https://www.youtube.com/watch?v=example",
     classes: [
       {
@@ -92,11 +93,12 @@ const courses = [
     authorImg: imgAuthor,
     date: "Proximamente...",
     img: img3,
-    description: `Node.js es una plataforma de desarrollo de código abierto que permite a los desarrolladores crear aplicaciones de red rápidas y escalables. En este curso, exploraremos cómo utilizar Node.js para construir aplicaciones web y API backend.
-
-    Aprenderemos sobre los fundamentos de Node.js, incluida la gestión de paquetes con npm, la creación de servidores HTTP, el enrutamiento de solicitudes, la manipulación de archivos y el acceso a bases de datos. También exploraremos el ecosistema de Node.js y aprenderemos a utilizar frameworks populares como Express.js.
-
-    Este curso es perfecto para cualquier persona interesada en el desarrollo de aplicaciones web y backend, desde principiantes hasta desarrolladores experimentados que buscan ampliar sus habilidades. Únete a nosotros y comienza a construir aplicaciones increíbles con Node.js.`,
+    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum quisquam aliquam ab fuga, consectetur sit quasi totam labore doloremque eligendi numquam voluptate, vel doloribus maxime harum dicta et iste provident?
+    Incidunt, asperiores libero? Quibusdam soluta dignissimos vitae. Et consequuntur magnam minus quasi quis quibusdam impedit nobis ipsum perferendis sequi eligendi voluptatum, repudiandae harum rerum veritatis sunt aperiam perspiciatis, eius debitis.
+    Mollitia architecto nemo cupiditate, quis sequi vitae cumque tempore ab hic reprehenderit laboriosam earum eius fugit nam ipsa aliquid expedita dolore nobis accusamus necessitatibus unde consequuntur. Quisquam quas aperiam sunt!
+    Rerum at itaque porro delectus, enim placeat id aut quisquam, optio temporibus tenetur, animi voluptatum? Dicta doloribus aperiam vitae modi earum error quaerat dignissimos, sunt voluptatem dolorem est quibusdam enim!
+    Repellat fugit fuga eaque consequatur, nostrum ipsum inventore quo adipisci iure optio rem laboriosam a id vel ipsam sequi accusantium dolore illum iusto libero temporibus consequuntur officiis tempore. Ipsa, doloribus?
+    Placeat, nisi illo iusto repellat inventore quisquam error ullam ipsum velit culpa pariatur! Velit, voluptatum adipisci. Officiis, voluptates saepe nesciunt impedit temporibus, quisquam esse dolore, voluptatum rem porro quis aspernatur?`,
     introductoryVideo: "https://www.youtube.com/watch?v=example",
     classes: [
       {
