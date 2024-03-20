@@ -64,12 +64,12 @@ const courses = [
       },
       {
         id: 9,
-        title: "Clase 9",
+        title: "Causas de un Avivamiento",
         video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FClase%209.mp4?alt=media&token=2e14a80e-52de-430e-b5fd-2ba6543416eb"
       },
       {
         id: 10,
-        title: "Clase 10",
+        title: "Ayuno y Oración",
         video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FClase%2010.mp4?alt=media&token=5065321c-38f3-43e4-be53-dec67c8185b8"
       },
     ]
