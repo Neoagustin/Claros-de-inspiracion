@@ -72,6 +72,26 @@ const courses = [
         title: "Ayuno y Oración",
         video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FClase%2010.mp4?alt=media&token=5065321c-38f3-43e4-be53-dec67c8185b8"
       },
+      {
+        id: 11,
+        title: "Ambientes Espirituales",
+        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FClase%2011.mp4?alt=media&token=a4b461de-4a80-45df-aee4-3d928991b368"
+      },
+      {
+        id: 12,
+        title: "La Importancia de la Palabra",
+        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FClase%2012.mp4?alt=media&token=a733bd5d-4146-4e2f-bbd1-690f8ca24622"
+      },
+      {
+        id: 13,
+        title: "El Amor es lo más Importante",
+        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FClase%2013.mp4?alt=media&token=38af0450-1f64-4a0a-9450-1dbbb1d7211b"
+      },
+      {
+        id: 14,
+        title: "Clase Final",
+        video: "https://firebasestorage.googleapis.com/v0/b/desperta-a-lo-eterno.appspot.com/o/Cursos%2FCurso%201%2FClase%2014.mp4?alt=media&token=93c2d9a7-1a17-4d8b-a5f2-40d10d3a13ca"
+      },
     ]
   },
   {
